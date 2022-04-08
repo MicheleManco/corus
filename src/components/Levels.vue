@@ -12,7 +12,7 @@
     <!-- card di informazione corsi -->
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-sm-6 col-12">
                 <img src="" alt="">
                 <div>
                     <h3>CORSO BASE DI CINESE (A1)</h3>
@@ -22,7 +22,7 @@
                     <p>Al termine del corso si prevede il raggiungimento del <span>livello A1</span> del Quadro comune europeo di riferimento per le lingue</p>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6 col-12">
                 <img src="" alt="">
                 <div>
                     <h3>CORSO BASE DI CINESE (A1)</h3>
@@ -32,7 +32,7 @@
                     <p>Al termine del corso si prevede il raggiungimento del <span>livello A1</span> del Quadro comune europeo di riferimento per le lingue</p>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6 col-12">
                 <img src="" alt="">
                 <div>
                     <h3>CORSO BASE DI CINESE (A1)</h3>
@@ -42,7 +42,7 @@
                     <p>Al termine del corso si prevede il raggiungimento del <span>livello A1</span> del Quadro comune europeo di riferimento per le lingue</p>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6 col-12">
                 <img src="" alt="">
                 <div>
                     <h3>CORSO BASE DI CINESE (A1)</h3>
