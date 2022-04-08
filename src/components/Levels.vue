@@ -3,7 +3,7 @@
       <div class="container">
           <div class="row">
             <div class="col-12">
-                <h2>2 LIVELLI DI APPRENDIMENTO</h2>
+                <h2 class="clr-red">2 LIVELLI DI APPRENDIMENTO</h2>
                 <p>le competenze acquisibili con i corsi di cinese e giapponese in aula</p>
             </div>
         </div>
@@ -12,61 +12,49 @@
     <!-- card di informazione corsi -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-12">
+
+            <div v-for="corso,i in corsi" :key="i" class="col-sm-6 col-12">
                 <img src="" alt="">
-                <div>
-                    <h3>CORSO BASE DI CINESE (A1)</h3>
-                    <p>il corso base è rivolto a chi è interessato a un <strong>primo approccio alla lingua cinese</strong> e vuole approfondire aspetti peculiari della cultura locale.</p>
+                <div class="text-level"><!--devo cambiare l'h dei blocchi in base alla dimensione dello schemro -->
+                    <h3 class="clr-red">{{corso.title}}</h3>
+                    <p>{{corso.text}}</p>
                 </div>
-                <div> <!-- per far stare sulla stessa linea questo commento e l'ealtro affianco mi basta mettere un h hai blocchi sopra -->
-                    <p>Al termine del corso si prevede il raggiungimento del <span>livello A1</span> del Quadro comune europeo di riferimento per le lingue</p>
+                <div> 
+                    <p>{{corso.comment}}</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-12">
+
+        </div>
+    </div>
+
+    <!-- sezione attestato di partecipazione-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-12">
                 <img src="" alt="">
-                <div>
-                    <h3>CORSO BASE DI CINESE (A1)</h3>
-                    <p>il corso base è rivolto a chi è interessato a un <strong>primo approccio alla lingua cinese</strong> e vuole approfondire aspetti peculiari della cultura locale.</p>
-                </div>
-                <div>
-                    <p>Al termine del corso si prevede il raggiungimento del <span>livello A1</span> del Quadro comune europeo di riferimento per le lingue</p>
-                </div>
             </div>
-            <div class="col-sm-6 col-12">
-                <img src="" alt="">
-                <div>
-                    <h3>CORSO BASE DI CINESE (A1)</h3>
-                    <p>il corso base è rivolto a chi è interessato a un <strong>primo approccio alla lingua cinese</strong> e vuole approfondire aspetti peculiari della cultura locale.</p>
-                </div>
-                <div>
-                    <p>Al termine del corso si prevede il raggiungimento del <span>livello A1</span> del Quadro comune europeo di riferimento per le lingue</p>
-                </div>
+            <div class="col-sm-8 col-12">
+                al termine di ogni corso, tutti i partecipanti riceveranno un
+                <h4 class="clr-red"><strong>ATTESTATO DI PARTECIPAZIONE</strong></h4>
             </div>
-            <div class="col-sm-6 col-12">
-                <img src="" alt="">
-                <div>
-                    <h3>CORSO BASE DI CINESE (A1)</h3>
-                    <p>il corso base è rivolto a chi è interessato a un <strong>primo approccio alla lingua cinese</strong> e vuole approfondire aspetti peculiari della cultura locale.</p>
+        </div>
+    </div>
+
+    <div class="bg-lightgray">
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-4 col-0">
+                    <img src="" alt="">
                 </div>
-                <div>
-                    <p>Al termine del corso si prevede il raggiungimento del <span>livello A1</span> del Quadro comune europeo di riferimento per le lingue</p>
+                <div class="col-sm-8 col-12">
+                    <strong>Contattaci per ricevere tutti i dettagli dei</strong> 
+                    <h4 class="clr-red"><strong>CORSI DI LINGUA CINESE E GIAPPONESE IN AULA</strong></h4>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- sezione attestato -->
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <img src="" alt="">
-            </div>
-            <div class="col-8">
-                al termine di ogni corso, tutti i partecipanti riceveranno un
-                <h3>ATTESTATO DI PARTECIPAZIONE</h3>
-            </div>
-        </div>
-    </div>
+
   </div>
 </template>
 
@@ -74,11 +62,17 @@
 export default {
   name: 'Levels',
   props: {
-   
+   corsi:Array,
   }
 }
 </script>
 
 <style scoped lang="scss">
-
+.text-level{
+    height: 300px;
+}
+.bg-lightgray{
+    background-color: rgb(235, 235, 235);
+    padding: 20px 0;
+}
 </style>
