@@ -1,28 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Jumbotron/>
+    <WhyC/>
+    <WhyJ/>
+    <Info/>
+    <Levels/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Jumbotron from './components/Jumbotron.vue'
+import WhyC from './components/WhyC.vue'
+import WhyJ from './components/WhyJ.vue'
+import Info from './components/Info.vue'
+import Levels from './components/Levels.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Jumbotron,
+    WhyC,
+    WhyJ,
+    Info,
+    Levels,
+    Footer
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
