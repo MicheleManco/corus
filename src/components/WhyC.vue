@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row">
         <h1 class="col-12 text-center">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI CINESE</span> ?</h1>
 
         <div class="col-md-4 d-none d-lg-block position-relative">
