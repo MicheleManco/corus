@@ -53,7 +53,7 @@
           <p>Il corso propone l'insegnamento della lingua <strong>giapponese moderna</strong>, con le sue forme di scrittura (katakana, hiragana, kenji).</p>
         </div>
 
-        <div class="col-lg-4 col-0">
+        <div class="col-lg-4 d-none d-lg-block">
           <img src="../assets/men.jpg" alt="">
         </div>
       </div>

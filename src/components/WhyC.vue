@@ -4,17 +4,17 @@
       <div class="row justify-content-center">
         <h1 class="col-12 text-center">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI CINESE</span> ?</h1>
 
-        <div class="col-md-4 col-0 position-relative">
+        <div class="col-md-4 d-none d-lg-block position-relative">
           <img src="../assets/prima-immagine.jpg" alt="">
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6">
           <p> i sempre più frequenti scambi commerciali e culturali con la Cina hanno fatto sì che il Cinese sia divenuto in pochi anni una delle lingue più studiate a livello mondiale nonché un importante strumento di lavoro e di scambio culturale.</p>
           <h4><span class="clr-red">QUALE CINESE</span>  INSEGNAMO?</h4>
           <p>Il corso propone l'insegnamento del Putonghua (普通話), altrimenti detto <strong>Mandarino</strong>, ossia la <strong> lingua ufficiale adottata dalla Repubblica Popolare Cinese</strong>, del relativo sistema di trascrizione fonetica Pīnyīn e delle regole di scrittura caratteri.</p>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6">
 
           <h4>Coordinate</h4>
 

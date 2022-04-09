@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>hello world</h1>
+  <div class="big-container">
+    
   </div>
 </template>
 
@@ -14,5 +14,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+.big-container{
+  background-image: url("../assets/jumbotron.jpg");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 </style>
