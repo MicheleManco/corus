@@ -4,8 +4,8 @@
       <div class="row justify-content-center">
         <h1 class="col-12 text-center">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI CINESE</span> ?</h1>
 
-        <div class="col-md-4 col-0">
-          <img src="" alt="">
+        <div class="col-md-4 col-0 position-relative">
+          <img src="../assets/prima-immagine.jpg" alt="">
         </div>
 
         <div class="col-md-4 col-sm-6">
@@ -18,9 +18,9 @@
 
           <h4>Coordinate</h4>
 
-          <div>
+          <div class="d-flex">
             <div>
-              <img src="" alt="">
+              <img src="../assets/orologio-icon.png" alt="">
             </div>
             <div>
               <h5 class="clr-red">Durata</h5>
@@ -28,9 +28,9 @@
             </div>
           </div>
 
-          <div>
+          <div class="d-flex">
             <div>
-              <img src="" alt="">
+              <img src="../assets/posizione-icon.png" alt="">
             </div>
             <div>
               <h5 class="clr-red">Sede</h5>
@@ -38,9 +38,9 @@
             </div>
           </div>
 
-          <div>
+          <div class="d-flex">
             <div>
-              <img src="" alt="">
+              <img src="../assets/people-icon.png" alt="">
             </div>
             <div>
               <h5 class="clr-red">ORGANIZZAZIONE</h5>
@@ -48,9 +48,9 @@
             </div>
           </div>
 
-          <div>
+          <div class="d-flex">
             <div>
-              <img src="" alt="">
+              <img src="../assets/attestato-icon.png" alt="">
             </div>
             <div>
               <h5 class="clr-red">ATTESTATO DI PARTECIPAZIONE</h5>

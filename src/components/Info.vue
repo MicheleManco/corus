@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <img src="" alt="">
+            <img src="../assets/women.png" alt="">
           </div>
           <div class="col-md-5 col-12">
             <h3 class="clr-red">DOCENTI QUALIFICATI</h3>
@@ -24,7 +24,7 @@
             <p>Oltre ai corsi di lingua cinese e giapponese, Corus offre anche servizi di traduzione e interpretariato, asseverazione, legalizzazione e impaginazione grafica nelle principali Lingue Orientali</p>
           </div>
           <div class="col-md-5">
-            <img src="" alt="">
+            <img src="../assets/logo.png" alt="">
           </div>
         </div>
       </div>
