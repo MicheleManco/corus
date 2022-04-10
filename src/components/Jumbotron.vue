@@ -1,20 +1,20 @@
 <template>
   <div class="big-container">
     <div class="container">
-      <div class="row core">
+      <div class="row core d-flex justify-content-center">         <!--da 992px devo cambiare i margini attraverso css e non BS -->
 
         <div class="col-9 row d-flex">
 
-          <div class="col-4"> <!--spaziatore --></div>
+          <div class="col-4 d-none d-xl-block"> <!--spaziatore --></div>
 
-          <div class="row col-8 debug3">
-            <div class="col-12 spazio-titolo-top"></div>
+          <div class="row col-12 col-xl-8">
+            <div class="col-12 d-none d-xl-block spazio-titolo-top"></div>
             <div class="col-12">
               <div class="main-title"><strong>Corsi di Lingua</strong></div>
               <div class="main-title"><strong>Cinese e Giapponese</strong></div>
             </div>
             <div class="col-12 row">
-              <div class="col-3"></div>
+              <div class="col-3 d-none d-xl-block"></div>
               <div class="col-9">
                 <div class="titolo-lista">corsi in aula a Brescia</div>
 
@@ -37,7 +37,7 @@
             </div>
           </div>
 
-          <div class="col-12 bg-gray align-self-end d-flex justify-content-between align-items-center">
+          <div class="col-12 d-none d-lg-flex bg-gray align-self-end justify-content-between align-items-center">
             <div>
               <div class="titoletto-giallo"><strong>PARTECIPA AI CORSI IN AULA</strong></div>
               <div class="sottotitolo-bianco"><strong>e apprendi la lingua cinese e giapponede da docenti qualificati</strong></div>
@@ -215,9 +215,4 @@ a{
   font-size: 18px;
 }
 // debug------------------------------------------------------
-
-
-// .debug3{
-//   background-color: purple;
-// }
 </style>

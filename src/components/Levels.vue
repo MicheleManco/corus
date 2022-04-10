@@ -13,9 +13,9 @@
     <div class="container">
         <div class="row">
 
-            <div v-for="corso,i in corsi" :key="i" class="col-sm-6 col-12 position-relative ">
+            <div v-for="corso,i in corsi" :key="i" class="col-md-6 col-12 position-relative ">
                 <div class="d-flex">
-                    <img class="pallino-corso" :src="require('../' + corso.image)" alt="">
+                    <img class="pallino-corso d-none d-sm-block" :src="require('../' + corso.image)" alt="">
                     <div class="info-card">
                         <h5 class="clr-red titoletto">{{corso.title}}</h5>
                         <p>{{corso.text}}</p>
@@ -32,7 +32,7 @@
     <!-- sezione attestato di partecipazione-->
     <div class="container">
         <div class="row attestato">
-            <div class="col-sm-4 col-12 d-flex justify-content-end ">
+            <div class="col-sm-4 d-none d-sm-flex col-12 d-flex justify-content-end ">
                 <img src="../assets/attestato.jpg" alt="">
             </div>
             <div class="col-sm-8 col-12 d-flex flex-column justify-content-center">
@@ -45,12 +45,15 @@
     <div class="bg-lightgray">
         <div class="container">
             <div class="row ">
-                <div class="col-sm-4 col-0 d-flex justify-content-end">
+                <div class="col-sm-4 d-none d-sm-flex col-0  justify-content-end">
                     <img src="../assets/arrow-pallino.png" alt="">
                 </div>
                 <div class="col-sm-8 col-12 d-flex flex-column justify-content-center">
                     <strong>Contattaci per ricevere tutti i dettagli dei</strong> 
                     <h4 class="clr-red"><strong>CORSI DI LINGUA CINESE E GIAPPONESE IN AULA</strong></h4>
+                </div>
+                <div class="d-sm-none ">
+                    <img src="../assets/arrow-pallino.png" alt="">
                 </div>
             </div>
         </div>

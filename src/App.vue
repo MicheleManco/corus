@@ -64,6 +64,14 @@ export default {
 </script>
 
 <style lang="scss">
+$grid-breakpoints: (
+  xs: 490px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
 
 .clr-red{
   color: red;
