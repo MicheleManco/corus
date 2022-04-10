@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center mini-container">
         <h1 class="col-12 text-center why-giapponese">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI GIAPPONESE</span> ?</h1>
 
         <div class="col-lg-4 col-sm-6 bg-lightgray">
@@ -71,6 +71,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.mini-container{
+  margin-bottom: 120px;
+}
 
 .why-giapponese{
   margin: 40px 0;
@@ -86,11 +89,11 @@ export default {
 }
 .bg-lightgray{
   background-color: lightgray;
-  margin-bottom: 120px;
   padding: 20px;
 }
 .image{
   position: absolute;
   left: 0;
+  height: 100%;
 }
 </style>

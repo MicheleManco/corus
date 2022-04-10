@@ -3,12 +3,12 @@
     <div class="bg-light-gray1">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
-            <img src="../assets/women.png" alt="">
+          <div class="col-sm-6 d-none d-lg-block d-flex justify-content-end">
+            <img class="women-img" src="../assets/women.png" alt="">
           </div>
-          <div class="col-md-5 col-12 d-flex flex-column justify-content-center">
+          <div class="col-lg-5 col-12 d-flex flex-column justify-content-center">
             <h3 class="clr-red">DOCENTI QUALIFICATI</h3>
-            <h3>per corsi di cinese e giapponese davvero efficaci</h3>
+            <h3 class="sottotitoletto">per corsi di cinese e giapponese davvero efficaci</h3>
             <p>i nostri docenti sono tutti accuratamente selezionati e hanno maturato molti anni di esperienza nell'inseguimento della lingua e della cultura cinese/giapponese e presso scuole medie e superiori, aziende, centrii linguistici  e associazioni culturali.</p>
           </div>
         </div>
@@ -19,11 +19,11 @@
     <div class="bg-light-gray2">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-12">
+          <div class="col-md-7 col-12">
             <p>Corus s.a.s. raggruppa un <span>team di traduttori e interpreti professionisti specializzati nelle Lingue Orientali</span>: Cinese,Giapponese e Coreano </p>
             <p>Oltre ai corsi di lingua cinese e giapponese, Corus offre anche servizi di traduzione e interpretariato, asseverazione, legalizzazione e impaginazione grafica nelle principali Lingue Orientali</p>
           </div>
-          <div class="col-md-5 d-flex flex-column justify-content-center align-items-center">
+          <div class="col-md-5 gy-3  d-flex flex-column justify-content-center align-items-center">
             <img src="../assets/logo.png" alt="">
           </div>
         </div>
@@ -47,7 +47,8 @@ export default {
 .bg-light-gray1{
   background-color: rgb(187, 187, 187);
   img{
-    margin-top: -50px;
+    margin-top: -70px;
+    margin-right: 50px;
   }
 }
 .bg-light-gray2{
@@ -57,5 +58,8 @@ export default {
   img{
     width: 300px;
   }
+}
+.sottotitoletto{
+  margin: -10px 0 30px 0;
 }
 </style>
