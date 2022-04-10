@@ -64,6 +64,7 @@ export default {
 </script>
 
 <style lang="scss">
+
 .clr-red{
   color: red;
 }

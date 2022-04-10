@@ -9,15 +9,30 @@
 
           <div class="row col-8 debug3">
             <div class="col-12 spazio-titolo-top"></div>
-            <div class="col-12"><h1>Corsi di Lingua Cinese e Giapponese</h1></div>
-
+            <div class="col-12">
+              <div class="main-title"><strong>Corsi di Lingua</strong></div>
+              <div class="main-title"><strong>Cinese e Giapponese</strong></div>
+            </div>
             <div class="col-12 row">
               <div class="col-3"></div>
               <div class="col-9">
-                <div>corsi in aula a Brescia</div>
-                <div><img src="../assets/check-yellow.png" alt=""><strong>2 livelli di apprendimento (A1 e A2)</strong></div>
-                <div><img src="../assets/check-yellow.png" alt=""><strong>docenti qualificati</strong></div>
-                <div><img src="../assets/check-yellow.png" alt=""><strong>attestato di partecipazione</strong> rilasciato al termine del corso</div>
+                <div class="titolo-lista">corsi in aula a Brescia</div>
+
+                <div class="clr-white d-flex">
+                  <img src="../assets/check-yellow.png" alt="">
+                  <div><strong>2 livelli di apprendimento (A1 e A2)</strong></div>
+                </div>
+
+                <div class="clr-white d-flex">
+                  <img src="../assets/check-yellow.png" alt="">
+                  <div><strong>docenti qualificati</strong></div>
+                </div>
+
+                <div class="clr-white d-flex">
+                  <img src="../assets/check-yellow.png" alt="">
+                  <div><strong>attestato di partecipazione</strong> rilasciato al termine del corso</div>
+                </div>
+    
               </div>
             </div>
           </div>
@@ -83,12 +98,35 @@ export default {
 .big-container{
   background-image: url("../assets/jumbotron.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: top;
   padding-top: 80px;
 }
 .spazio-titolo-top{
   height: 30px;
+}
+
+.main-title{
+  color: white;
+  font-size: 50px;
+  line-height: 50px;
+  margin-left: 124px;
+  margin-right: -10px;
+}
+.titolo-lista{
+  color: white;
+  font-size: 27px;
+  margin: 50px 0px 20px 116px;
+}
+.clr-white{
+  color: white;
+  margin-left: 80px;
+  margin-bottom: 30px;
+  img{
+    margin-right: 10px;
+    width: 26px;
+    height: 24px;
+  }
 }
 
 .colore-orange {
@@ -177,7 +215,7 @@ a{
 // debug------------------------------------------------------
 
 
-.debug3{
-  background-color: purple;
-}
+// .debug3{
+//   background-color: purple;
+// }
 </style>
