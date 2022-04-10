@@ -49,7 +49,7 @@
         </div>
 
         <!-- form------------------------------------------------------------------------- -->
-        <div class="col-3 bg-light-black">
+        <div class="col-3 bg-light-black position-relative">
           
           <div class="colore-orange head-form d-flex align-items-center"><div class="da_ottobre">da ottobre 2018</div></div>
 
@@ -170,6 +170,8 @@ export default {
   justify-content: center;
   align-items: center;
   background-color: #dc8122;
+  position: absolute;
+  bottom: 0px;
   img{
     margin-left: 20px;
   }

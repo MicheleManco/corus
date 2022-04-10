@@ -2,10 +2,10 @@
   <div>
     <div class="container">
       <div class="row">
-        <h1 class="col-12 text-center">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI CINESE</span> ?</h1>
+        <h1 class="col-12 text-center why-cinese">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI CINESE</span> ?</h1>
 
         <div class="col-md-4 d-none d-lg-block position-relative">
-          <img src="../assets/prima-immagine.jpg" alt="">
+          <img class="image" src="../assets/prima-immagine.jpg" alt="">
         </div>
 
         <div class="col-lg-4 col-sm-6">
@@ -16,11 +16,11 @@
 
         <div class="col-lg-4 col-sm-6">
 
-          <h4>Coordinate</h4>
+          <h4 id="coordinate">COORDINATE</h4>
 
           <div class="d-flex">
-            <div>
-              <img src="../assets/orologio-icon.png" alt="">
+            <div class="images">
+              <img src="../assets/orologio.png" alt="">
             </div>
             <div>
               <h5 class="clr-red">Durata</h5>
@@ -29,8 +29,8 @@
           </div>
 
           <div class="d-flex">
-            <div>
-              <img src="../assets/posizione-icon.png" alt="">
+            <div class="images">
+              <img src="../assets/posizione.png" alt="">
             </div>
             <div>
               <h5 class="clr-red">Sede</h5>
@@ -39,8 +39,8 @@
           </div>
 
           <div class="d-flex">
-            <div>
-              <img src="../assets/people-icon.png" alt="">
+            <div class="images">
+              <img src="../assets/people.png" alt="">
             </div>
             <div>
               <h5 class="clr-red">ORGANIZZAZIONE</h5>
@@ -49,7 +49,7 @@
           </div>
 
           <div class="d-flex">
-            <div>
+            <div class="images">
               <img src="../assets/attestato-icon.png" alt="">
             </div>
             <div>
@@ -91,4 +91,18 @@ export default {
   font-size: 20px;
   padding: 20px;
 }
+.why-cinese{
+  margin: 40px 0;
+}
+#coordinate{
+  margin: 20px 0;
+}
+.images{
+  margin-right: 15px;
+}
+.image{
+  position: absolute;
+  right: 0;
+}
+
 </style>
