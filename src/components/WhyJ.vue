@@ -2,10 +2,10 @@
   <div>
     <div class="container">
       <div class="row justify-content-center">
-        <h1 class="col-12 text-center">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI GIAPPONESE</span> ?</h1>
+        <h1 class="col-12 text-center why-giapponese">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI GIAPPONESE</span> ?</h1>
 
-        <div class="col-lg-4 col-sm-6">
-          <h4>Coordinate</h4>
+        <div class="col-lg-4 col-sm-6 bg-lightgray">
+          <h4 id="coordinate">COORDINATE</h4>
 
           <div class="d-flex">
             <div>
@@ -47,14 +47,14 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 paragrafi">
           <p>L'occidente è da sempre interessato alla realtà nipponica, per le sue enormi potenzialità, ma anche per la sua affascinante variegata cultura: anime e manga, templi e castelli, geishe e samurai sono lo sfondo di una società ipertecnologica e alla moda. E oggi chi conosce il giapponese rappresenta un'importante risorsa per le aziende italiane che si affacciano su questo mercato. </p>
           <h4><span class="clr-red">QUALE GIAPPONESE</span>  INSEGNAMO?</h4>
           <p>Il corso propone l'insegnamento della lingua <strong>giapponese moderna</strong>, con le sue forme di scrittura (katakana, hiragana, kenji).</p>
         </div>
 
-        <div class="col-lg-4 d-none d-lg-block">
-          <img src="../assets/men.jpg" alt="">
+        <div class="col-lg-4 d-none d-lg-block position-relative">
+          <img class="image" src="../assets/men.jpg" alt="">
         </div>
       </div>
     </div>
@@ -72,4 +72,25 @@ export default {
 
 <style scoped lang="scss">
 
+.why-giapponese{
+  margin: 40px 0;
+}
+// #coordinate{
+//   margin: 20px 0;
+// }
+.paragrafi{
+  padding: 20px 20px 0 30px;
+}
+.images{
+  margin-right: 15px;
+}
+.bg-lightgray{
+  background-color: lightgray;
+  margin-bottom: 120px;
+  padding: 20px;
+}
+.image{
+  position: absolute;
+  left: 0;
+}
 </style>

@@ -8,13 +8,13 @@
           <img class="image" src="../assets/prima-immagine.jpg" alt="">
         </div>
 
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 paragrafi">
           <p> i sempre più frequenti scambi commerciali e culturali con la Cina hanno fatto sì che il Cinese sia divenuto in pochi anni una delle lingue più studiate a livello mondiale nonché un importante strumento di lavoro e di scambio culturale.</p>
           <h4><span class="clr-red">QUALE CINESE</span>  INSEGNAMO?</h4>
           <p>Il corso propone l'insegnamento del Putonghua (普通話), altrimenti detto <strong>Mandarino</strong>, ossia la <strong> lingua ufficiale adottata dalla Repubblica Popolare Cinese</strong>, del relativo sistema di trascrizione fonetica Pīnyīn e delle regole di scrittura caratteri.</p>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 bg-lightgray">
 
           <h4 id="coordinate">COORDINATE</h4>
 
@@ -90,15 +90,23 @@ export default {
   color: white;
   font-size: 20px;
   padding: 20px;
+  margin: 80px 0 40px 0;
 }
 .why-cinese{
   margin: 40px 0;
 }
-#coordinate{
-  margin: 20px 0;
+// #coordinate{
+//   margin: 20px 0;
+// }
+.paragrafi{
+  padding: 20px 20px 0 30px;
 }
 .images{
   margin-right: 15px;
+}
+.bg-lightgray{
+  background-color: lightgray;
+  padding: 20px;
 }
 .image{
   position: absolute;
