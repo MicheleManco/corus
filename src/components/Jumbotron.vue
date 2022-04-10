@@ -3,7 +3,8 @@
     <div class="container">
       <div class="row core">
 
-        <div class="col-9 row ">
+        <div class="col-9 row d-flex">
+
           <div class="col-4"> <!--spaziatore --></div>
 
           <div class="row col-8 debug3">
@@ -21,10 +22,13 @@
             </div>
           </div>
 
-          <div class="col-12 bg-gray">
-            <h4>PARTECIPA AI CORSI IN AULA</h4>
-            <div>e apprendi la lingua cinese e giapponede da docenti qualificati</div>
-            <div>termine iscrizioni 7 Ottobre</div>
+          <div class="col-12 bg-gray align-self-end d-flex justify-content-between align-items-center">
+            <div>
+              <div class="titoletto-giallo"><strong>PARTECIPA AI CORSI IN AULA</strong></div>
+              <div class="sottotitolo-bianco"><strong>e apprendi la lingua cinese e giapponede da docenti qualificati</strong></div>
+              <div class="white-text">termine iscrizioni 7 Ottobre</div>
+            </div>
+            <img id="arrow-white" src="../assets/arrow-wh-right.png" alt="">
           </div>
 
         </div>
@@ -118,11 +122,7 @@ export default {
   line-height: 30px;
   margin: 15px 0;
 }
-.bg-gray{
-  margin-top: 120px;
-  background-color: gray;
-  height: 100px;
-}
+
 .invia_richiesta{
   height: 85px;
   width: 240px;
@@ -150,6 +150,29 @@ a{
   font-size: 13px;
   color: white;
   line-height: 14px;
+}
+.bg-gray{
+  margin-top: 120px;
+  background-color: #313131;
+  height: 85px;
+  padding: 0px 30px;
+}
+#arrow-white{
+  margin-right: 10px;
+}
+.titoletto-giallo{
+  color: #dc8122;
+  font-size: 23px;
+  line-height: 25px;
+}
+.sottotitolo-bianco{
+  color: white;
+  font-size: 20px;
+  line-height: 22px;
+}
+.white-text{
+  color: white;
+  font-size: 18px;
 }
 // debug------------------------------------------------------
 
