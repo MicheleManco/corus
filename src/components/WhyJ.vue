@@ -88,7 +88,7 @@ export default {
   margin-right: 15px;
 }
 .bg-lightgray{
-  background-color: lightgray;
+  background-color: #e5e5e5;
   padding: 20px;
 }
 .image{

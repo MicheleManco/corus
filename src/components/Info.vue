@@ -45,14 +45,14 @@ export default {
 
 <style scoped lang="scss">
 .bg-light-gray1{
-  background-color: rgb(187, 187, 187);
+  background-color: #e5e5e5;
   img{
     margin-top: -70px;
     margin-right: 50px;
   }
 }
 .bg-light-gray2{
-  background-color: rgb(235, 235, 235);
+  background-color: #f5f5f5;
   margin: 25px 0;
   padding: 25px 0;
   img{

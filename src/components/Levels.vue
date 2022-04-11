@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row">
 
-            <div v-for="corso,i in corsi" :key="i" class="col-md-6 col-12 position-relative ">
+            <div v-for="corso,i in corsi" :key="i" class="col-md-6 col-12 position-relative margine-card">
                 <div class="d-flex">
                     <img class="pallino-corso d-none d-sm-block" :src="require('../' + corso.image)" alt="">
                     <div class="info-card">
@@ -86,6 +86,10 @@ export default {
 //     z-index: -1;
 // }
 
+.margine-card{
+    margin-bottom: 50px;
+}
+
 .bg-lightgray{
     background-color: rgb(235, 235, 235);
     padding: 20px 0;
@@ -112,5 +116,8 @@ export default {
    .info-card{
     padding-bottom: 180px;
 } 
+.margine-card{
+    margin-bottom: 20px;
+}
 }
 </style>
