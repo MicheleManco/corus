@@ -16,7 +16,7 @@
 
         <div class="col-lg-4 col-sm-6 bg-lightgray">
 
-          <h4 id="coordinate">COORDINATE</h4>
+          <h4>COORDINATE</h4>
 
           <div class="d-flex">
             <div class="images">
@@ -95,9 +95,7 @@ export default {
 .why-cinese{
   margin: 40px 0;
 }
-// #coordinate{
-//   margin: 20px 0;
-// }
+
 .paragrafi{
   padding: 20px 20px 0 30px;
 }
@@ -112,6 +110,11 @@ export default {
   position: absolute;
   right: 0;
   height: 100%;
+}
+@media all and (max-width: 575px){
+.why-cinese{
+  margin: 40px 0 0 0;
+}
 }
 
 </style>

@@ -19,7 +19,10 @@
                     <div class="info-card">
                         <h5 class="clr-red titoletto">{{corso.title}}</h5>
                         <p>{{corso.text}}</p>
-                         <p class="position-absolute bottom-0 start-20 bg-gray">{{corso.comment}}</p>  <!--position absolute per farlo stare sotto -->
+                        <div class="position-absolute bottom-0 start-20 position-relative">
+                            {{corso.comment}}
+                            <div class="sfondo-gray"></div>
+                        </div>
                     </div>
                 </div>
                 
@@ -49,7 +52,7 @@
                     <img src="../assets/arrow-pallino.png" alt="">
                 </div>
                 <div class="col-sm-8 col-12 d-flex flex-column justify-content-center">
-                    <strong>Contattaci per ricevere tutti i dettagli dei</strong> 
+                    <div class="contattaci">Contattaci per ricevere tutti i dettagli dei</div> 
                     <h4 class="clr-red"><strong>CORSI DI LINGUA CINESE E GIAPPONESE IN AULA</strong></h4>
                 </div>
                 <div class="d-sm-none ">
@@ -73,6 +76,15 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.sfondo-gray{
+    height: 100%;
+    width: 2000px;
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+    left: -10px;
+    top: 0;
+    z-index: -1;
+}
 
 .bg-lightgray{
     background-color: rgb(235, 235, 235);
@@ -91,5 +103,14 @@ export default {
 }
 .attestato{
     margin: 30px 0;
+}
+.contattaci{
+    font-size: 28px;
+    line-height: 28px;
+}
+@media all and (max-width: 390px){
+   .info-card{
+    padding-bottom: 180px;
+} 
 }
 </style>

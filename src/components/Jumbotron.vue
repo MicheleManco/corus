@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row core d-flex justify-content-center">         <!--da 992px devo cambiare i margini attraverso css e non BS -->
 
-        <div class="col-9 row d-flex ">
+        <div class="col-sm-9 col-12 row d-flex ">
 
           <div class="col-4 d-none d-xl-block"> <!--spaziatore --></div>
 
@@ -247,6 +247,11 @@ a{
     width: 26px;
     height: 24px;
   }
+}
+.titolo-lista{
+  color: white;
+  font-size: 27px;
+  margin: 50px 0px 20px;
 }
 }
 

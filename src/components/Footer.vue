@@ -32,7 +32,7 @@
             <div>Messaggio *</div>
             <textarea name=""></textarea>
 
-            <div class="d-sm-flex justify-content-between">
+            <div class="d-xxl-flex justify-content-between">
               <div><input type="checkbox" name="termini"><a class="accettazione" href=""> Accettazione Tratt. Dati Personali</a> *</div>
               <div>* campi obbligatori</div>
             </div>

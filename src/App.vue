@@ -64,14 +64,10 @@ export default {
 </script>
 
 <style lang="scss">
-$grid-breakpoints: (
-  xs: 490px,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+ html, body{
+   font-family: 'Roboto', sans-serif;
+ }
 
 .clr-red{
   color: red;
