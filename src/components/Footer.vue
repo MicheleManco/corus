@@ -11,16 +11,16 @@
         <form action="" class="row col-xl-9 needs-validation spaziatura-col-2" novalidate>
           <div class="col-xl-3 col-md-4 spaziatura-col-2">
             <label for="validationCustom01" class="form-label padding-blocco">Nome e Cognome *</label>
-            <input type="text" class="form-control margin-blocco" id="validationCustom01" value="" required>
+            <input type="text" class="no_border_radius form-control margin-blocco" id="validationCustom01" value="" required>
 
             <div class="spazioform">telefono</div>
             <input class="inputs" type="tel">
 
             <label for="exampleInputEmail1" class="spazioform form-label">E-mail*</label>
-          <input class="inputs form-control" id="exampleInputEmail1" required type="email">
+          <input class="inputs no_border_radius form-control" id="exampleInputEmail1" required type="email">
 
             <div class="spazioform">Corso di interesse</div>
-            <select class="inputs selection" name="interesse">
+            <select class="no_border_radius inputs selection" name="interesse">
               <option value="Cinese-Base">Cinese Base</option>
               <option value="Cinese-Elementare">Cinese Elementare</option>
               <option value="Giapponese-Base">Giapponese Base</option>
@@ -30,12 +30,13 @@
 
           <div class="col-xl-6 col-md-8">
             <label class="form-label" for="validationTextarea">Messaggio*</label>
-            <textarea class="form-control" id="validationTextarea"  name=""  required></textarea>
+            <textarea class="no_border_radius form-control" id="validationTextarea"  name=""  required></textarea>
 
-            <div class="d-xxl-flex justify-content-between">
-              <input class="checkbox form-check-input" type="checkbox" value="" id="invalidCheck" required name="termini"> <a href="">
-                <label class="form-check-label" for="invalidCheck">Accettazione Tratt. Dati Personali</label>
-              </a>
+            <div class="d-xxl-flex justify-content-between check-container">
+              <div class="d-flex flex-nowrap">
+                <input class="checkbox form-check-input" type="checkbox" value="" id="invalidCheck" required name="termini">
+                <a href=""><label class="form-check-label" for="invalidCheck">Accettazione Tratt. Dati Personali</label></a>
+              </div>
               <div>* campi obbligatori</div>
             </div>
 
@@ -87,8 +88,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.check-container{
+  margin-top: 15px;
+}
+.no_border_radius{
+  border-radius: 0px;
+}
 a{
   color: white;
+  .form-check-label{
+    text-decoration: underline;
+    margin-left: 10px;
+  }
 }
 .bg-gray1{
   background-color: rgb(65, 65, 65);

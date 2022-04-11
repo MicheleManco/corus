@@ -49,7 +49,7 @@
         </div>
 
         <!-- form------------------------------------------------------------------------------------------------------------------------------------------------------------->
-        <form class="col-3 bg-light-black position-relative needs-validation" novalidate action="">
+        <form class="col-3 bg-light-black position-relative needs-validation" id="form-container" novalidate action="">
         <div>
           
           <div class="colore-orange head-form d-flex align-items-center"><div class="da_ottobre">da ottobre 2018</div></div>
@@ -57,16 +57,16 @@
           <div class="padding-blocco richiedi_info"><strong>Richiedi informazioni</strong> </div>
 
           <label for="validationCustom01" class="form-label padding-blocco">Nome e Cognome *</label>
-          <input type="text" class="form-control margin-blocco" id="validationCustom01" value="" required>
+          <input type="text" class="no_border_radius form-control margin-blocco" id="validationCustom01" value="" required>
 
           <div class="padding-blocco">telefono</div>
           <input class="margin-blocco" type="tel">
 
           <label for="exampleInputEmail1" class="padding-blocco form-label">E-mail*</label>
-          <input class="margin-blocco form-control" id="exampleInputEmail1" required type="email">
+          <input class="no_border_radius margin-blocco form-control" id="exampleInputEmail1" required type="email">
 
           <div class="padding-blocco">Corso di interesse</div>
-          <select class="margin-blocco" name="interesse">
+          <select class="no_border_radius margin-blocco" name="interesse">
             <option value="Cinese-Base" selected > Cinese Base</option>
             <option value="Cinese-Elementare"> Cinese Elementare</option>
             <option value="Giapponese-Base"> Giapponese Base</option>
@@ -74,7 +74,7 @@
           </select>
 
           <label class="padding-blocco form-label" for="validationTextarea">Messaggio*</label>
-          <textarea class="margin-blocco form-control" id="validationTextarea"  name=""  required></textarea>
+          <textarea class="no_border_radius margin-blocco form-control" id="validationTextarea"  name=""  required></textarea>
 
           <div>
             <div class="padding-blocco">*campi obbligatori</div>
@@ -126,6 +126,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.form-check-label{
+  margin-left: 5px;
+}
+#form-container{
+  min-height: 670px;
+}
+.form-check-label{
+    text-decoration: underline;
+  }
+.no_border_radius{
+  border-radius: 0px;
+}
 .big-container{
   background-image: url("../assets/jumbotron.jpg");
   background-repeat: no-repeat;
@@ -217,6 +229,9 @@ export default {
 }
 .checkbox-container{
   margin: 10px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 a{
   font-size: 13px;
