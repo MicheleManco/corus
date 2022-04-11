@@ -21,7 +21,7 @@
                         <p>{{corso.text}}</p>
                         <div class="position-absolute bottom-0 start-20 position-relative">
                             {{corso.comment}}
-                            <div class="sfondo-gray"></div>
+                            <!-- <div class="sfondo-gray"></div> -->
                         </div>
                     </div>
                 </div>
@@ -76,15 +76,15 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.sfondo-gray{
-    height: 100%;
-    width: 2000px;
-    background-color: rgb(235, 235, 235);
-    position: absolute;
-    left: -10px;
-    top: 0;
-    z-index: -1;
-}
+// .sfondo-gray{
+//     height: 100%;
+//     width: 2000px;
+//     background-color: rgb(235, 235, 235);
+//     position: absolute;
+//     left: -10px;
+//     top: 0;
+//     z-index: -1;
+// }
 
 .bg-lightgray{
     background-color: rgb(235, 235, 235);
