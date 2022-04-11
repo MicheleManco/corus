@@ -8,16 +8,16 @@
         </div>
 
         <!-- form ------------------------------------------------------------------------------------------------------------------ -->
-        <form action="" class="row col-xl-9  spaziatura-col-2">
+        <form action="" class="row col-xl-9 needs-validation spaziatura-col-2" novalidate>
           <div class="col-xl-3 col-md-4 spaziatura-col-2">
-            <div>Nome e Cognome *</div>
-            <input class="inputs" type="text">
+            <label for="validationCustom01" class="form-label padding-blocco">Nome e Cognome *</label>
+            <input type="text" class="form-control margin-blocco" id="validationCustom01" value="" required>
 
             <div class="spazioform">telefono</div>
-            <input class="inputs" type="text">
+            <input class="inputs" type="tel">
 
-            <div class="spazioform">E-mail *</div>
-            <input class="inputs" type="text">
+            <label for="exampleInputEmail1" class="spazioform form-label">E-mail*</label>
+          <input class="inputs form-control" id="exampleInputEmail1" required type="email">
 
             <div class="spazioform">Corso di interesse</div>
             <select class="inputs selection" name="interesse">
@@ -29,11 +29,13 @@
           </div>
 
           <div class="col-xl-6 col-md-8">
-            <div>Messaggio *</div>
-            <textarea name=""></textarea>
+            <label class="form-label" for="validationTextarea">Messaggio*</label>
+            <textarea class="form-control" id="validationTextarea"  name=""  required></textarea>
 
             <div class="d-xxl-flex justify-content-between">
-              <div><input type="checkbox" name="termini"><a class="accettazione" href=""> Accettazione Tratt. Dati Personali</a> *</div>
+              <input class="checkbox form-check-input" type="checkbox" value="" id="invalidCheck" required name="termini"> <a href="">
+                <label class="form-check-label" for="invalidCheck">Accettazione Tratt. Dati Personali</label>
+              </a>
               <div>* campi obbligatori</div>
             </div>
 
@@ -58,8 +60,28 @@
 <script>
 export default {
   name: 'Footer',
-  props: {
-   
+  methods:{
+    validazione () {
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+
+          form.classList.add('was-validated')
+        }, false)
+      })
+    }
+  },
+  mounted(){
+   this.validazione()
   }
 }
 </script>
