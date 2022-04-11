@@ -49,7 +49,8 @@
         </div>
 
         <!-- form------------------------------------------------------------------------- -->
-        <div class="col-3 bg-light-black position-relative">
+        <form class="col-3 bg-light-black position-relative" action="">
+        <div>
           
           <div class="colore-orange head-form d-flex align-items-center"><div class="da_ottobre">da ottobre 2018</div></div>
 
@@ -77,9 +78,11 @@
             
           </div>
 
-          <div class="invia_richiesta"><div>Invia Richiesta</div><img src="../assets/arrow-right.png" alt=""></div>
+            <button class="invia_richiesta" type="submit"><div>Invia Richiesta<img src="../assets/arrow-right.png" alt=""></div></button>
 
         </div>
+        </form>
+        
       </div>
     </div>
   </div>
@@ -172,6 +175,7 @@ export default {
   background-color: #dc8122;
   position: absolute;
   bottom: 0px;
+  border: none;
   img{
     margin-left: 20px;
   }

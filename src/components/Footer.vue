@@ -7,35 +7,42 @@
           <div class="bg-gray2">Richiedi <br> Informazioni</div>
         </div>
 
-        <div class="col-xl-3 col-md-4 spaziatura-col-2">
-          <div>Nome e Cognome *</div>
-          <input class="inputs" type="text">
-          <div class="spazioform">telefono</div>
-          <input class="inputs" type="text">
-          <div class="spazioform">E-mail *</div>
-          <input class="inputs" type="text">
-          <div class="spazioform">Corso di interesse</div>
-          <select class="inputs selection" name="interesse">
-            <option value="Cinese-Base">Cinese Base</option>
-            <option value="Cinese-Elementare">Cinese Elementare</option>
-            <option value="Giapponese-Base">Giapponese Base</option>
-            <option value="Giapponese-Elementare">Giapponese Elementare</option>
-          </select>
-        </div>
+        <!-- form ------------------------------------------------------------------------------------------------------------------ -->
+        <form action="" class="row col-xl-9  spaziatura-col-2">
+          <div class="col-xl-3 col-md-4 spaziatura-col-2">
+            <div>Nome e Cognome *</div>
+            <input class="inputs" type="text">
 
-        <div class="col-xl-6 col-md-8">
-          <div>Messaggio *</div>
-          <textarea name=""></textarea>
+            <div class="spazioform">telefono</div>
+            <input class="inputs" type="text">
 
-          <div class="d-sm-flex justify-content-between">
-            <div><input type="checkbox" name="termini"><a class="accettazione" href=""> Accettazione Tratt. Dati Personali</a> *</div>
-            <div>* campi obbligatori</div>
+            <div class="spazioform">E-mail *</div>
+            <input class="inputs" type="text">
+
+            <div class="spazioform">Corso di interesse</div>
+            <select class="inputs selection" name="interesse">
+              <option value="Cinese-Base">Cinese Base</option>
+              <option value="Cinese-Elementare">Cinese Elementare</option>
+              <option value="Giapponese-Base">Giapponese Base</option>
+              <option value="Giapponese-Elementare">Giapponese Elementare</option>
+            </select>
           </div>
-          <div class="d-flex justify-content-end btn-invio">
-            <div class="invia_richiesta" >Invia Richiesta <img src="../assets/arrow-right.png" alt=""></div> 
+
+          <div class="col-xl-6 col-md-8">
+            <div>Messaggio *</div>
+            <textarea name=""></textarea>
+
+            <div class="d-sm-flex justify-content-between">
+              <div><input type="checkbox" name="termini"><a class="accettazione" href=""> Accettazione Tratt. Dati Personali</a> *</div>
+              <div>* campi obbligatori</div>
+            </div>
+
+            <div class="d-flex justify-content-end btn-invio">
+              <button class="invia_richiesta" type="submit"><div>Invia Richiesta<img src="../assets/arrow-right.png" alt=""></div></button> 
+            </div>
           </div>
-          
-        </div>
+        </form>
+        <!-- end-form ---------------------------------------------------------------------------------------------------- -->
 
         <div class="info-corus">
           <div class="col-12 text-center"><strong>Corus s.a.s. - Servizi di traduzione ed interpretariato in Cinese, Giapponese e Coreano</strong></div>
@@ -101,6 +108,7 @@ textarea{
   justify-content: center;
   align-items: center;
   background-color: #dc8122;
+  border:none;
   img{
     margin-left: 25px;
   }

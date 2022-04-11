@@ -9,7 +9,7 @@
 
           <div class="d-flex">
             <div>
-              <img src="../assets/orologio.png" alt="">
+              <img class="images" src="../assets/orologio.png" alt="">
             </div>
             <div>
               <h5 class="clr-red">Durata</h5>
@@ -19,7 +19,7 @@
 
           <div class="d-flex">
             <div>
-              <img src="../assets/posizione.png" alt="">
+              <img class="images" src="../assets/posizione.png" alt="">
             </div>
             <div>
               <h5 class="clr-red">Sede</h5>
@@ -29,7 +29,7 @@
 
           <div class="d-flex">
             <div>
-              <img src="../assets/people.png" alt="">
+              <img class="images" src="../assets/people.png" alt="">
             </div>
             <div>
               <h5 class="clr-red">ORGANIZZAZIONE</h5>
@@ -39,7 +39,7 @@
 
           <div class="d-flex">
             <div>
-              <img src="../assets/attestato-icon.png" alt="">
+              <img class="images" src="../assets/attestato-icon.png" alt="">
             </div>
             <div>
               <h5 class="clr-red">ATTESTATO DI PARTECIPAZIONE</h5>
