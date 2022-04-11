@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row core d-flex justify-content-center">         <!--da 992px devo cambiare i margini attraverso css e non BS -->
 
-        <div class="col-9 row d-flex">
+        <div class="col-9 row d-flex ">
 
           <div class="col-4 d-none d-xl-block"> <!--spaziatore --></div>
 
@@ -14,8 +14,8 @@
               <div class="main-title"><strong>Cinese e Giapponese</strong></div>
             </div>
             <div class="col-12 row">
-              <div class="col-3 d-none d-xl-block"></div>
-              <div class="col-9">
+              <div class="col-3 d-none d-lg-block"></div>
+              <div class="col-lg-9 col-12">
                 <div class="titolo-lista">corsi in aula a Brescia</div>
 
                 <div class="clr-white d-flex">
@@ -214,5 +214,36 @@ a{
   color: white;
   font-size: 18px;
 }
-// debug------------------------------------------------------
+
+@media all and (max-width: 992px) {
+.big-container{
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.invia_richiesta{
+  bottom: -20px;
+}
+.main-title{
+  color: white;
+  font-size: 50px;
+  line-height: 50px;
+  margin-left: 0;
+  margin-right: -40px;
+  font-size: 40px;
+}
+.titolo-lista{
+  margin-left: 0px;
+}
+.clr-white{
+  color: white;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  img{
+    margin-right: 10px;
+    width: 26px;
+    height: 24px;
+  }
+}
+}
+
 </style>
