@@ -70,6 +70,6 @@ export default {
  }
 
 .clr-red{
-  color: red;
+  color: #ba122b;
 }
 </style>
