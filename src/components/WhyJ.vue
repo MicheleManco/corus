@@ -1,10 +1,11 @@
 <template>
   <div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row justify-content-center mini-container">
         <h1 class="col-12 text-center why-giapponese">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI GIAPPONESE</span> ?</h1>
 
-        <div class="col-lg-4 col-sm-6 bg-lightgray">
+        <div class="col-xl-4 col-sm-6 bg-lightgray">
+          <div>
           <h4 id="coordinate">COORDINATE</h4>
 
           <div class="d-flex">
@@ -45,15 +46,16 @@
               <h5 class="clr-red">ATTESTATO DI PARTECIPAZIONE</h5>
             </div>
           </div>
+          </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6 paragrafi">
+        <div class="col-xl-4 col-sm-6 paragrafi ">
           <p>L'occidente è da sempre interessato alla realtà nipponica, per le sue enormi potenzialità, ma anche per la sua affascinante variegata cultura: anime e manga, templi e castelli, geishe e samurai sono lo sfondo di una società ipertecnologica e alla moda. E oggi chi conosce il giapponese rappresenta un'importante risorsa per le aziende italiane che si affacciano su questo mercato. </p>
           <h4><span class="clr-red">QUALE GIAPPONESE</span>  INSEGNAMO?</h4>
           <p>Il corso propone l'insegnamento della lingua <strong>giapponese moderna</strong>, con le sue forme di scrittura (katakana, hiragana, kenji).</p>
         </div>
 
-        <div class="col-lg-4 d-none d-lg-block position-relative">
+        <div class="col-md-4 d-none d-xl-block position-relative">
           <img class="image" src="../assets/men.jpg" alt="">
         </div>
       </div>
@@ -78,22 +80,48 @@ export default {
 .why-giapponese{
   margin: 40px 0;
 }
-// #coordinate{
-//   margin: 20px 0;
-// }
 .paragrafi{
-  padding: 20px 20px 0 30px;
+  padding: 20px 60px 0 60px;
 }
 .images{
   margin-right: 15px;
 }
 .bg-lightgray{
   background-color: #e5e5e5;
-  padding: 20px;
+  padding: 20px 20px 20px 200px;
 }
 .image{
   position: absolute;
   left: 0;
   height: 100%;
+}
+@media all and (max-width: 1400px){
+.bg-lightgray{
+  padding: 20px  20px 20px 100px;
+}
+}
+
+@media all and (max-width: 1200px){
+.bg-lightgray{
+  padding: 20px  20px 20px 150px;
+}
+.paragrafi{
+  padding: 20px 20px 0 30px;
+}
+}
+@media all and (max-width: 900px){
+.bg-lightgray{
+  padding: 20px 20px 20px 50px;
+}
+}
+@media all and (max-width: 500px){
+.bg-lightgray{
+  padding: 20px 20px 20px 20px;
+}
+}
+@media all and (max-width: 500px){
+.bg-lightgray{
+  padding: 10px;
+}
 }
 </style>
