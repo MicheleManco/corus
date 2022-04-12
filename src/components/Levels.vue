@@ -35,7 +35,7 @@
     <!-- sezione attestato di partecipazione-->
     <div class="container">
         <div class="row attestato">
-            <div class="col-sm-4 d-none d-sm-flex col-12 d-flex justify-content-end ">
+            <div class="col-sm-4 d-none d-sm-flex d-flex justify-content-end ">
                 <img src="../assets/attestato.jpg" alt="">
             </div>
             <div class="col-sm-8 col-12 d-flex flex-column justify-content-center">
@@ -47,8 +47,8 @@
 
     <div class="bg-lightgray">
         <div class="container">
-            <div class="row ">
-                <div class="col-sm-4 d-none d-sm-flex col-0  justify-content-end">
+            <div class="row last-row">
+                <div class="col-sm-4 d-none d-sm-flex justify-content-end">
                     <img src="../assets/arrow-pallino.png" alt="">
                 </div>
                 <div class="col-sm-8 col-12 d-flex flex-column justify-content-center">
@@ -110,7 +110,7 @@ export default {
     margin-right: 15px;
 }
 .attestato{
-    margin: 30px;
+    margin: 30px 0px;
     img{
         margin-right: 50px;
     }
@@ -120,6 +120,11 @@ export default {
     font-size: 25px;
     line-height: 25px;
     color: #4c4c4c;
+}
+.last-row{
+    img{
+        max-height: 50px;
+    }
 }
 @media all and (max-width: 390px){
    .info-card{

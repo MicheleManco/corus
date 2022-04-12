@@ -2,7 +2,7 @@
   <div>
     <div class="container-fluid">
       <div class="row justify-content-center mini-container">
-        <h1 class="col-12 text-center why-giapponese">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI GIAPPONESE</span> ?</h1>
+        <h1 class="col-12 text-center why-giapponese">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI GIAPPONESE</span>?</h1>
 
         <div class="col-xl-4 col-sm-6 bg-lightgray">
           <div>

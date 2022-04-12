@@ -2,7 +2,7 @@
   <div>
     <div class="container-fluid">
       <div class="row">
-        <h1 class="col-12 text-center why-cinese">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI CINESE</span> ?</h1>
+        <h1 class="col-12 text-center why-cinese">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI CINESE</span>?</h1>
 
         <div class="col-md-4 d-none d-xl-block position-relative">
           <img class="image" src="../assets/prima-immagine.jpg" alt="">
@@ -88,11 +88,12 @@ export default {
 <style scoped lang="scss">
 
 .bg-red{
-  background-color: red;
+  background-color: #ba122b;
   color: white;
-  font-size: 20px;
+  font-size: 22px;
+  line-height: 23px;
   padding: 20px;
-  margin: 80px 0 40px 0;
+  margin: 60px 0 10px 0;
 }
 .why-cinese{
   margin: 40px 0;
