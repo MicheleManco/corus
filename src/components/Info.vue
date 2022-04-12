@@ -3,8 +3,8 @@
     <div class="bg-light-gray1">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 d-none d-lg-block d-flex justify-content-end">
-            <img class="women-img" src="../assets/women.png" alt="">
+          <div class="col-sm-6 d-none d-lg-flex d-flex justify-content-end">
+              <img class="women-img" src="../assets/women.png" alt="">
           </div>
           <div class="col-lg-5 col-12 d-flex flex-column justify-content-center">
             <h3 class="clr-red">DOCENTI QUALIFICATI</h3>
