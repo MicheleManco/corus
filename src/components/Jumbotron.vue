@@ -62,7 +62,7 @@
           <div class="padding-blocco">telefono</div>
           <input class="margin-blocco" type="tel">
 
-          <label for="exampleInputEmail1" class="padding-blocco form-label">E-mail*</label>
+          <label for="exampleInputEmail1" class="padding-blocco form-label">E-mail *</label>
           <input class="no_border_radius margin-blocco form-control" id="exampleInputEmail1" required type="email">
 
           <div class="padding-blocco">Corso di interesse</div>
@@ -73,14 +73,14 @@
             <option value="Giapponese-Elementare"> Giapponese Elementare</option>
           </select>
 
-          <label class="padding-blocco form-label" for="validationTextarea">Messaggio*</label>
+          <label class="padding-blocco form-label" for="validationTextarea">Messaggio *</label>
           <textarea class="no_border_radius margin-blocco form-control" id="validationTextarea"  name=""  required></textarea>
 
           <div>
-            <div class="padding-blocco">*campi obbligatori</div>
+            <div class="padding-blocco">* campi obbligatori</div>
             <div class="checkbox-container">
               <input class="checkbox form-check-input" type="checkbox" value="" id="invalidCheck" required name="termini"> <a href="">
-                <label class="form-check-label" for="invalidCheck">Accettazione Tratt. Dati Personali</label>
+                <label class="form-check-label" for="invalidCheck">Accettazione Tratt. Dati Personali*</label>
               </a> 
             </div>
           </div>

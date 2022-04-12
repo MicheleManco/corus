@@ -3,13 +3,13 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-3 d-none d-xl-block">
+        <div class="col-4 d-none d-xl-flex justify-content-end ">
           <div class="bg-gray2">Richiedi <br> Informazioni</div>
         </div>
 
         <!-- form ------------------------------------------------------------------------------------------------------------------ -->
-        <form action="" class="row col-xl-9 needs-validation spaziatura-col-2" novalidate>
-          <div class="col-xl-3 col-md-4 spaziatura-col-2">
+        <form action="" class="row col-xl-8 needs-validation spaziatura-col-2" novalidate>
+          <div class="col-xl-4 col-md-4 spaziatura-col-2">
             <label for="validationCustom01" class="form-label padding-blocco">Nome e Cognome *</label>
             <input type="text" class="no_border_radius form-control margin-blocco" id="validationCustom01" value="" required>
 
