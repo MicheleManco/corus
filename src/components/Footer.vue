@@ -11,16 +11,16 @@
         <form action="" class="row col-xl-8 needs-validation spaziatura-col-2" novalidate>
           <div class="col-xl-4 col-md-4 spaziatura-col-2">
             <label for="validationCustom01" class="form-label padding-blocco">Nome e Cognome *</label>
-            <input type="text" class="no_border_radius form-control margin-blocco" id="validationCustom01" value="" required>
+            <input type="text" class="no_border_radius form-control formH margin-blocco" id="validationCustom01" value="" required>
 
             <div class="spazioform">telefono</div>
-            <input class="inputs" type="tel">
+            <input class="inputs formH" type="tel">
 
             <label for="exampleInputEmail1" class="spazioform form-label">E-mail*</label>
-          <input class="inputs no_border_radius form-control" id="exampleInputEmail1" required type="email">
+          <input class="inputs no_border_radius form-control formH" id="exampleInputEmail1" required type="email">
 
             <div class="spazioform">Corso di interesse</div>
-            <select class="no_border_radius inputs selection" name="interesse">
+            <select class="no_border_radius inputs selection formH" name="interesse">
               <option value="Cinese-Base">Cinese Base</option>
               <option value="Cinese-Elementare">Cinese Elementare</option>
               <option value="Giapponese-Base">Giapponese Base</option>
@@ -88,6 +88,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.formH{
+  height: 32px;
+}
 label{
   margin-bottom: 0px;
 }

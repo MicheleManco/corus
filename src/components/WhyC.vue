@@ -67,7 +67,7 @@
       <div class="container">
         <div class="row justify-content-sm-center">
           <div class="col-12 col-md-5 text-center">
-            <div>L'allievo può scegliere tra <strong>2 livelli di apprendimento</strong> in base alle conoscenze della lingua già acquisite.</div>
+            <div class="fs-4">L'allievo può scegliere tra <strong>2 livelli di apprendimento</strong> in base alle conoscenze della lingua già acquisite.</div>
           </div>
         </div>
       </div>

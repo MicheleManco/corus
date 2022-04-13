@@ -6,15 +6,15 @@
 
         <div class="col-xl-4 col-sm-6 bg-lightgray clr-gray">
           <div>
-          <h4><strong>COORDINATE</strong></h4>
+          <h4 class="fs-3"><strong>COORDINATE</strong></h4>
 
           <div class="d-flex">
             <div>
               <img class="images" src="../assets/orologio.png" alt="">
             </div>
             <div>
-              <h5 class="clr-red"><strong>Durata</strong></h5>
-              <p>Ottobre - maggio per un totale di 60 ore</p>
+              <h5 class="clr-red fs-4"><strong>Durata</strong></h5>
+              <p class="fs-5">Ottobre - maggio per un totale di 60 ore</p>
             </div>
           </div>
 
@@ -23,8 +23,8 @@
               <img class="images" src="../assets/posizione.png" alt="">
             </div>
             <div>
-              <h5 class="clr-red"><strong>Sede</strong></h5>
-              <p>Il corso si terrà presso la sede di Corus s.a.s. in Via Lautelmonte, 32 a Esine(Brescia)</p>
+              <h5 class="clr-red fs-4"><strong>Sede</strong></h5>
+              <p class="fs-5">Il corso si terrà presso la sede di Corus s.a.s. in Via Lautelmonte, 32 a Esine(Brescia)</p>
             </div>
           </div>
 
@@ -33,8 +33,8 @@
               <img class="images" src="../assets/people.png" alt="">
             </div>
             <div>
-              <h5 class="clr-red"><strong>ORGANIZZAZIONE</strong></h5>
-              <p>Gli allievi verranno organizzati in gruppi di massimo 5 persone</p>
+              <h5 class="clr-red fs-4"><strong>ORGANIZZAZIONE</strong></h5>
+              <p class="fs-5">Gli allievi verranno organizzati in gruppi di massimo 5 persone</p>
             </div>
           </div>
 
@@ -43,16 +43,16 @@
               <img class="images" src="../assets/attestato-icon.png" alt="">
             </div>
             <div>
-              <h5 class="clr-red"><strong>ATTESTATO DI PARTECIPAZIONE</strong></h5>
+              <h5 class="clr-red fs-4"><strong>ATTESTATO DI PARTECIPAZIONE</strong></h5>
             </div>
           </div>
           </div>
         </div>
 
         <div class="col-xl-4 col-sm-6 paragrafi ">
-          <p class="clr-gray-dark" >L'occidente è da sempre interessato alla realtà nipponica, per le sue enormi potenzialità, ma anche per la sua affascinante variegata cultura: anime e manga, templi e castelli, geishe e samurai sono lo sfondo di una società ipertecnologica e alla moda. E oggi chi conosce il giapponese rappresenta un'importante risorsa per le aziende italiane che si affacciano su questo mercato. </p>
-          <h4 class="clr-gray"><strong><span class="clr-red">QUALE GIAPPONESE</span>  INSEGNAMO?</strong></h4>
-          <p class="clr-gray-dark" >Il corso propone l'insegnamento della lingua <strong>giapponese moderna</strong>, con le sue forme di scrittura (katakana, hiragana, kenji).</p>
+          <p class="clr-gray-dark fs-5" >L'occidente è da sempre interessato alla realtà nipponica, per le sue enormi potenzialità, ma anche per la sua affascinante variegata cultura: anime e manga, templi e castelli, geishe e samurai sono lo sfondo di una società ipertecnologica e alla moda. E oggi chi conosce il giapponese rappresenta un'importante risorsa per le aziende italiane che si affacciano su questo mercato. </p>
+          <h4 class="clr-gray fs-3"><strong><span class="clr-red">QUALE GIAPPONESE</span>  INSEGNAMO?</strong></h4>
+          <p class="clr-gray-dark fs-5" >Il corso propone l'insegnamento della lingua <strong>giapponese moderna</strong>, con le sue forme di scrittura (katakana, hiragana, kenji).</p>
         </div>
 
         <div class="col-md-4 d-none d-xl-block position-relative">
@@ -87,7 +87,7 @@ export default {
   margin: 40px 0;
 }
 .paragrafi{
-  padding: 20px 60px 0 60px;
+  padding: 20px 45px 20px 45px;
 }
 .images{
   margin-right: 15px;
