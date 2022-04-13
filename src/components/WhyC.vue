@@ -2,28 +2,28 @@
   <div>
     <div class="container-fluid">
       <div class="row">
-        <h1 class="col-12 text-center why-cinese">PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI CINESE</span>?</h1>
+        <h1 class="col-12 text-center why-cinese clr-gray"><strong> PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI CINESE</span>?</strong> </h1>
 
         <div class="col-md-4 d-none d-xl-block position-relative">
           <img class="image" src="../assets/prima-immagine.jpg" alt="">
         </div>
 
         <div class="col-xl-4 col-sm-6 paragrafi">
-          <p> i sempre più frequenti scambi commerciali e culturali con la Cina hanno fatto sì che il Cinese sia divenuto in pochi anni una delle lingue più studiate a livello mondiale nonché un importante strumento di lavoro e di scambio culturale.</p>
-          <h4><span class="clr-red">QUALE CINESE</span>  INSEGNAMO?</h4>
-          <p>Il corso propone l'insegnamento del Putonghua (普通話), altrimenti detto <strong>Mandarino</strong>, ossia la <strong> lingua ufficiale adottata dalla Repubblica Popolare Cinese</strong>, del relativo sistema di trascrizione fonetica Pīnyīn e delle regole di scrittura caratteri.</p>
+          <p class="clr-gray-dark"> i sempre più frequenti scambi commerciali e culturali con la Cina hanno fatto sì che il Cinese sia divenuto in pochi anni una delle lingue più studiate a livello mondiale nonché un importante strumento di lavoro e di scambio culturale.</p>
+          <h4 class="clr-gray"><strong><span class="clr-red">QUALE CINESE</span>  INSEGNAMO?</strong></h4>
+          <p class="clr-gray-dark" >Il corso propone l'insegnamento del Putonghua (普通話), altrimenti detto <strong>Mandarino</strong>, ossia la <strong> lingua ufficiale adottata dalla Repubblica Popolare Cinese</strong>, del relativo sistema di trascrizione fonetica Pīnyīn e delle regole di scrittura caratteri.</p>
         </div>
 
-        <div class="col-xl-4 col-sm-6 bg-lightgray">
+        <div class="col-xl-4 col-sm-6 bg-lightgray clr-gray">
           <div>
-            <h4>COORDINATE</h4>
+            <h4><strong>COORDINATE</strong></h4>
 
             <div class="d-flex">
               <div class="images">
                 <img src="../assets/orologio.png" alt="">
               </div>
               <div>
-                <h5 class="clr-red">Durata</h5>
+                <h5 class="clr-red"><strong>Durata</strong></h5>
                 <p>Ottobre - maggio per un totale di 60 ore</p>
               </div>
             </div>
@@ -33,7 +33,7 @@
                 <img src="../assets/posizione.png" alt="">
               </div>
               <div>
-                <h5 class="clr-red">Sede</h5>
+                <h5 class="clr-red"><strong>Sede</strong></h5>
                 <p>Il corso si terrà presso la sede di Corus s.a.s. in Via Lautelmonte, 32 a Esine(Brescia)</p>
               </div>
             </div>
@@ -43,7 +43,7 @@
                 <img src="../assets/people.png" alt="">
               </div>
               <div>
-                <h5 class="clr-red">ORGANIZZAZIONE</h5>
+                <h5 class="clr-red"><strong>ORGANIZZAZIONE</strong></h5>
                 <p>Gli allievi verranno organizzati in gruppi di massimo 5 persone</p>
               </div>
             </div>
@@ -53,7 +53,7 @@
                 <img src="../assets/attestato-icon.png" alt="">
               </div>
               <div>
-                <h5 class="clr-red">ATTESTATO DI PARTECIPAZIONE</h5>
+                <h5 class="clr-red"><strong>ATTESTATO DI PARTECIPAZIONE</strong></h5>
               </div>
             </div>
           </div>
@@ -86,6 +86,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.clr-gray-dark{
+  color: #3a3a3a;
+}
+.clr-gray{
+  color: #535353;
+}
 
 .bg-red{
   background-color: #ba122b;

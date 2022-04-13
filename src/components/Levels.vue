@@ -10,23 +10,20 @@
       </div>
       
     <!-- card di informazione corsi -->
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid">
+        <div class="row container-card">
 
             <div v-for="corso,i in corsi" :key="i" class="col-md-6 col-12 position-relative margine-card">
-                <div class="d-flex">
+                <div class="d-flex content">
                     <img class="pallino-corso d-none d-sm-block" :src="require('../' + corso.image)" alt="">
                     <div class="info-card">
                         <h5 class="clr-red titoletto"><strong>{{corso.title}}</strong></h5>
                         <p>{{corso.text}}</p>
-                        <div class="position-absolute bottom-0 start-20 position-relative">
-                            {{corso.comment}}
-                            <!-- <div class="sfondo-gray"></div> -->
-                        </div>
                     </div>
                 </div>
-                
-                
+                <div class="position-absolute bottom-0 start-20 position-relative commento">
+                    {{corso.comment}}
+                </div>
             </div>
 
         </div>
@@ -84,7 +81,25 @@ export default {
         color: #4c4c4c;
     }
 }
+.margine-card:nth-child(2) .content,.margine-card:nth-child(4) .content{
+    padding-right: 30%;
+}
+.margine-card:nth-child(1) .content,.margine-card:nth-child(3) .content{
+    padding-left: 30%;
+}
+.margine-card:nth-child(2) .commento,.margine-card:nth-child(4) .commento{
+    padding:10px 30% 10px 50px;
+}
+.margine-card:nth-child(1) .commento,.margine-card:nth-child(3) .commento{
+    padding:10px 50px 10px  36%;  
+    right: 0;
+}
 
+.commento{
+    background-color: #dcdcdc;
+    width: 100%;
+    height: 23%;
+}
 .margine-card{
     margin-bottom: 50px;
 }
@@ -94,7 +109,7 @@ export default {
     padding: 20px 0;
 }
 .info-card{
-    padding-bottom: 100px;
+    padding-bottom: 30%;
 }
 .titoletto{
     line-height: 50px;
@@ -133,5 +148,117 @@ export default {
 .margine-card{
     margin-bottom: 20px;
 }
+}
+@media all and (max-width: 1285px){
+   
+    .margine-card:nth-child(2) .content,.margine-card:nth-child(4) .content{
+        padding-right: 10%;
+    }
+    .margine-card:nth-child(1) .content,.margine-card:nth-child(3) .content{
+        padding-left: 10%;
+    }
+    .margine-card:nth-child(2) .commento,.margine-card:nth-child(4) .commento{
+        padding:10px 30% 10px 50px;
+    }
+    .margine-card:nth-child(1) .commento,.margine-card:nth-child(3) .commento{
+        padding:10px 50px 10px  36%;  
+        right: 0;
+    }
+    .commento{
+    background-color: #dcdcdc;
+    width: 100%;
+    height: 28%;
+}
+}
+@media all and (max-width: 1080px){
+    .info-card{
+        padding-bottom: 50%;
+    }
+}
+@media all and (max-width: 905px){
+    .margine-card:nth-child(2) .content,.margine-card:nth-child(4) .content{
+        padding-right: 1%;
+    }
+    .margine-card:nth-child(1) .content,.margine-card:nth-child(3) .content{
+        padding-left: 1%;
+    }
+    .margine-card:nth-child(2) .commento,.margine-card:nth-child(4) .commento{
+        padding:10px 10% 10px 60px;
+    }
+    .margine-card:nth-child(1) .commento,.margine-card:nth-child(3) .commento{
+        padding:10px 50px 10px  16%;  
+        right: 0;
+    }
+    .commento{
+        background-color: #dcdcdc;
+        width: 100%;
+        height: 23%;
+    }
+    .info-card{
+        padding-bottom: 45%;
+    }
+}
+@media all and (max-width: 767px){
+    .info-card{
+        padding-bottom: 20%;
+    }
+    .commento{
+        height: 30%;
+    }
+    .margine-card:nth-child(2) .content,.margine-card:nth-child(4) .content{
+        padding-right: 1%;
+    }
+    .margine-card:nth-child(1) .content,.margine-card:nth-child(3) .content{
+        padding-left: 1%;
+    }
+    .margine-card:nth-child(2) .commento,.margine-card:nth-child(4) .commento{
+        padding:10px 10% 10px 14%;
+        margin-left: -12px;
+    }
+    .margine-card:nth-child(1) .commento,.margine-card:nth-child(3) .commento{
+        padding:10px 10% 10px  14%;  
+        right: 0;
+    }
+}
+@media all and (max-width:630px){
+    .info-card{
+        padding-bottom: 30%;
+    }
+}
+@media all and (max-width:575px){
+    .margine-card:nth-child(2) .content,.margine-card:nth-child(4) .content{
+        padding-right: 0;
+    }
+    .margine-card:nth-child(1) .content,.margine-card:nth-child(3) .content{
+        padding-left: 0;
+    }
+    .margine-card:nth-child(2) .commento,.margine-card:nth-child(4) .commento{
+        padding:10px;
+    }
+    .margine-card:nth-child(1) .commento,.margine-card:nth-child(3) .commento{
+        padding:10px;  
+        right: 0;
+    }
+    .commento{
+        height: 30%;
+    }
+    .info-card{
+        padding-bottom: 50%;
+    }
+}
+@media all and (max-width:391px){
+    .margine-card:nth-child(4) .commento,.margine-card:nth-child(1) .commento,.margine-card:nth-child(2) .commento{
+        height: 20%;
+    }
+}
+@media all and (max-width:391px){
+   .info-card{
+        padding-bottom: 60%;
+    } 
+}
+@media all and (max-width:295px){
+    .info-card{
+        padding-bottom: 80%;
+    }
 }
 </style>

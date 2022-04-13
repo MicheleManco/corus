@@ -64,9 +64,10 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
- html, body{
-   font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body{
+   font-family: 'Roboto Condensed', sans-serif;
  }
 
 .clr-red{
