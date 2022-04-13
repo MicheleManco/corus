@@ -5,17 +5,17 @@
 
         <div class="col-sm-9 col-12 row d-flex ">
 
-          <div class="col-3 d-none d-xl-block"> <!--spaziatore --></div>
+          <div class="col-2 d-none d-xl-block"> <!--spaziatore --></div>
 
-          <div class="row col-12 col-xl-9">
+          <div class="row col-12 col-xl-10">
             <div class="col-12 d-none d-xl-block spazio-titolo-top"></div>
             <div class="col-12">
               <div class="main-title"><strong>Corsi di Lingua</strong></div>
               <div class="main-title"><strong>Cinese e Giapponese</strong></div>
             </div>
             <div class="col-12 row">
-              <div class="col-3 d-none d-lg-block"></div>
-              <div class="col-lg-9 col-12">
+              <div class="col-4 d-none d-lg-block"></div>
+              <div class="col-lg-8 col-12">
                 <div class="titolo-lista">corsi in aula a Brescia</div>
 
                 <div class="clr-white d-flex">
@@ -153,7 +153,7 @@ label{
   padding-top: 80px;
 }
 .spazio-titolo-top{
-  height: 30px;
+  height: 110px;
 }
 
 .main-title{
@@ -162,6 +162,7 @@ label{
   line-height: 60px;
   margin-left: 124px;
   margin-right: -10px;
+  font-family: 'Roboto Bold';
 }
 .titolo-lista{
   color: white;
@@ -246,7 +247,7 @@ a{
   line-height: 14px;
 }
 .bg-gray{
-  margin-top: 120px;
+  margin-top: 40px;
   background-color: #313131;
   height: 85px;
   padding: 0px 30px;
