@@ -9,22 +9,22 @@
         </div>
 
         <div class="col-xl-4 col-sm-6 paragrafi">
-          <p class="clr-gray-dark"> i sempre più frequenti scambi commerciali e culturali con la Cina hanno fatto sì che il Cinese sia divenuto in pochi anni una delle lingue più studiate a livello mondiale nonché un importante strumento di lavoro e di scambio culturale.</p>
-          <h4 class="clr-gray"><strong><span class="clr-red">QUALE CINESE</span>  INSEGNAMO?</strong></h4>
-          <p class="clr-gray-dark" >Il corso propone l'insegnamento del Putonghua (普通話), altrimenti detto <strong>Mandarino</strong>, ossia la <strong> lingua ufficiale adottata dalla Repubblica Popolare Cinese</strong>, del relativo sistema di trascrizione fonetica Pīnyīn e delle regole di scrittura caratteri.</p>
+          <p class="clr-gray-dark fs-5"> i sempre più frequenti scambi commerciali e culturali con la Cina hanno fatto sì che il Cinese sia divenuto in pochi anni una delle lingue più studiate a livello mondiale nonché un importante strumento di lavoro e di scambio culturale.</p>
+          <h4 class="clr-gray fs-3"><strong><span class="clr-red ">QUALE CINESE</span>  INSEGNAMO?</strong></h4>
+          <p class="clr-gray-dark fs-5" >Il corso propone l'insegnamento del Putonghua (普通話), altrimenti detto <strong>Mandarino</strong>, ossia la <strong> lingua ufficiale adottata dalla Repubblica Popolare Cinese</strong>, del relativo sistema di trascrizione fonetica Pīnyīn e delle regole di scrittura caratteri.</p>
         </div>
 
         <div class="col-xl-4 col-sm-6 bg-lightgray clr-gray">
           <div>
-            <h4><strong>COORDINATE</strong></h4>
+            <h4 class="fs-3"><strong>COORDINATE</strong></h4>
 
             <div class="d-flex">
               <div class="images">
                 <img src="../assets/orologio.png" alt="">
               </div>
               <div>
-                <h5 class="clr-red"><strong>Durata</strong></h5>
-                <p>Ottobre - maggio per un totale di 60 ore</p>
+                <h5 class="clr-red fs-4"><strong>Durata</strong></h5>
+                <p class="fs-5">Ottobre - maggio per un totale di 60 ore</p>
               </div>
             </div>
 
@@ -33,8 +33,8 @@
                 <img src="../assets/posizione.png" alt="">
               </div>
               <div>
-                <h5 class="clr-red"><strong>Sede</strong></h5>
-                <p>Il corso si terrà presso la sede di Corus s.a.s. in Via Lautelmonte, 32 a Esine(Brescia)</p>
+                <h5 class="clr-red fs-4"><strong>Sede</strong></h5>
+                <p class="fs-5">Il corso si terrà presso la sede di Corus s.a.s. in Via Lautelmonte, 32 a Esine(Brescia)</p>
               </div>
             </div>
 
@@ -43,8 +43,8 @@
                 <img src="../assets/people.png" alt="">
               </div>
               <div>
-                <h5 class="clr-red"><strong>ORGANIZZAZIONE</strong></h5>
-                <p>Gli allievi verranno organizzati in gruppi di massimo 5 persone</p>
+                <h5 class="clr-red fs-4"><strong>ORGANIZZAZIONE</strong></h5>
+                <p class="fs-5">Gli allievi verranno organizzati in gruppi di massimo 5 persone</p>
               </div>
             </div>
 
@@ -53,7 +53,7 @@
                 <img src="../assets/attestato-icon.png" alt="">
               </div>
               <div>
-                <h5 class="clr-red"><strong>ATTESTATO DI PARTECIPAZIONE</strong></h5>
+                <h5 class="clr-red fs-4"><strong>ATTESTATO DI PARTECIPAZIONE</strong></h5>
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default {
 }
 
 .paragrafi{
-  padding: 20px 20px 0 30px;
+  padding: 20px 45px 20px 45px;
 }
 .images{
   margin-right: 15px;

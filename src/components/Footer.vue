@@ -4,7 +4,7 @@
       <div class="row">
 
         <div class="col-4 d-none d-xl-flex justify-content-end ">
-          <div class="bg-gray2">Richiedi <br> Informazioni</div>
+          <div class="bg-gray2"><strong>Richiedi <br> Informazioni</strong></div>
         </div>
 
         <!-- form ------------------------------------------------------------------------------------------------------------------ -->
@@ -35,7 +35,7 @@
             <div class="d-xxl-flex justify-content-between check-container">
               <div class="d-flex flex-nowrap">
                 <input class="checkbox form-check-input" type="checkbox" value="" id="invalidCheck" required name="termini">
-                <a href=""><label class="form-check-label" for="invalidCheck">Accettazione Tratt. Dati Personali</label></a>
+                <a href=""><label class="form-check-label" for="invalidCheck">Accettazione Tratt. Dati Personali*</label></a>
               </div>
               <div>* campi obbligatori</div>
             </div>
@@ -88,6 +88,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+label{
+  margin-bottom: 0px;
+}
 .check-container{
   margin-top: 15px;
 }

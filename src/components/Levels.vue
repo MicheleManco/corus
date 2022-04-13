@@ -106,7 +106,7 @@ export default {
 
 .bg-lightgray{
     background-color: rgb(235, 235, 235);
-    padding: 20px 0;
+    padding: 35px 0;
 }
 .info-card{
     padding-bottom: 30%;

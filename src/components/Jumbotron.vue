@@ -5,9 +5,9 @@
 
         <div class="col-sm-9 col-12 row d-flex ">
 
-          <div class="col-4 d-none d-xl-block"> <!--spaziatore --></div>
+          <div class="col-3 d-none d-xl-block"> <!--spaziatore --></div>
 
-          <div class="row col-12 col-xl-8">
+          <div class="row col-12 col-xl-9">
             <div class="col-12 d-none d-xl-block spazio-titolo-top"></div>
             <div class="col-12">
               <div class="main-title"><strong>Corsi di Lingua</strong></div>
@@ -20,17 +20,17 @@
 
                 <div class="clr-white d-flex">
                   <img src="../assets/check-yellow.png" alt="">
-                  <div><strong>2 livelli di apprendimento (A1 e A2)</strong></div>
+                  <div class="lista"><strong>2 livelli di apprendimento (A1 e A2)</strong></div>
                 </div>
 
                 <div class="clr-white d-flex">
                   <img src="../assets/check-yellow.png" alt="">
-                  <div><strong>docenti qualificati</strong></div>
+                  <div class="lista"><strong>docenti qualificati</strong></div>
                 </div>
 
                 <div class="clr-white d-flex">
                   <img src="../assets/check-yellow.png" alt="">
-                  <div><strong>attestato di partecipazione</strong> rilasciato al termine del corso</div>
+                  <div class="lista"><strong>attestato di partecipazione</strong> rilasciato al termine del corso</div>
                 </div>
     
               </div>
@@ -126,6 +126,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
+label{
+  margin-bottom: 0px;
+}
+.lista{
+  font-size: 25px;
+  line-height: 25px;
+}
 .form-check-label{
   margin-left: 5px;
 }
@@ -151,8 +158,8 @@ export default {
 
 .main-title{
   color: white;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 60px;
+  line-height: 60px;
   margin-left: 124px;
   margin-right: -10px;
 }
