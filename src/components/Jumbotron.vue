@@ -40,7 +40,7 @@
           <div class="col-12 d-none d-lg-flex bg-gray align-self-end justify-content-between align-items-center">
             <div>
               <div class="titoletto-giallo robotoB">PARTECIPA AI CORSI IN AULA</div>
-              <div class="sottotitolo-bianco robotoB">e apprendi la lingua cinese e giapponede da docenti qualificati</div>
+              <div class="sottotitolo-bianco robotoB fs-4">e apprendi la lingua cinese e giapponede da docenti qualificati</div>
               <div class="white-text">termine iscrizioni 7 Ottobre</div>
             </div>
             <img id="arrow-white" src="../assets/arrow-wh-right.png" alt="">
@@ -134,8 +134,8 @@ label{
   margin-bottom: 0px;
 }
 .lista{
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 22px;
+  line-height: 23px;
 }
 .row-margin-bottom{
   margin-bottom: 50px;
@@ -177,7 +177,7 @@ label{
 }
 .clr-white{
   color: white;
-  margin-left: 110px;
+  margin-left: 150px;
   img{
     margin-right: 10px;
     width: 26px;
@@ -230,7 +230,7 @@ textarea{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #dc8122;
+  background-color: #ff9f19;
   position: absolute;
   bottom: 0px;
   border: none;
