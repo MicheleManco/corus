@@ -49,8 +49,8 @@
                     <img src="../assets/arrow-pallino.png" alt="">
                 </div>
                 <div class="col-sm-8 col-12 d-flex flex-column justify-content-center">
-                    <div class="contattaci robotoB">Contattaci per ricevere tutti i dettagli dei</div> 
-                    <h4 class="clr-red robotoB">CORSI DI LINGUA CINESE E GIAPPONESE IN AULA</h4>
+                    <div class="contattaci robotoB fs-3">Contattaci per ricevere tutti i dettagli dei</div> 
+                    <div class="clr-red robotoB fs-3">CORSI DI LINGUA CINESE E GIAPPONESE IN AULA</div>
                 </div>
                 <div class="d-sm-none ">
                     <img src="../assets/arrow-pallino.png" alt="">
@@ -73,6 +73,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.fs-3{
+    line-height: 30px;
+}
 .robotoB{
    font-family: 'Roboto';
    font-weight: 700;

@@ -4,7 +4,7 @@
       <div class="row">
 
         <div class="col-4 d-none d-xl-flex justify-content-end ">
-          <div class="bg-gray2"><strong>Richiedi <br> Informazioni</strong></div>
+          <div class="bg-gray2 robotoB">Richiedi <br> Informazioni</div>
         </div>
 
         <!-- form ------------------------------------------------------------------------------------------------------------------ -->
@@ -13,11 +13,11 @@
             <label for="validationCustom01" class="form-label padding-blocco">Nome e Cognome *</label>
             <input type="text" class="no_border_radius form-control formH margin-blocco" id="validationCustom01" value="" required>
 
-            <div class="spazioform">telefono</div>
-            <input class="inputs formH" type="tel">
+            <label class="spazioform form-label padding-blocco">Telefono</label>
+            <input class="inputs no_border_radius form-control formH margin-blocco" type="tel">
 
-            <label for="exampleInputEmail1" class="spazioform form-label">E-mail*</label>
-          <input class="inputs no_border_radius form-control formH" id="exampleInputEmail1" required type="email">
+            <label for="exampleInputEmail1" class="spazioform form-label">E-mail *</label>
+          <input class="inputs no_border_radius form-control formH margin-blocco" id="exampleInputEmail1" required type="email">
 
             <div class="spazioform">Corso di interesse</div>
             <select class="no_border_radius inputs selection formH" name="interesse">
@@ -29,15 +29,15 @@
           </div>
 
           <div class="col-xl-6 col-md-8">
-            <label class="form-label" for="validationTextarea">Messaggio*</label>
+            <label class="form-label" for="validationTextarea">Messaggio *</label>
             <textarea class="no_border_radius form-control" id="validationTextarea"  name=""  required></textarea>
 
-            <div class="d-xxl-flex justify-content-between check-container">
+            <div class="d-xxl-flex justify-content-between check-container align-items-center">
               <div class="d-flex flex-nowrap">
                 <input class="checkbox form-check-input" type="checkbox" value="" id="invalidCheck" required name="termini">
-                <a href=""><label class="form-check-label" for="invalidCheck">Accettazione Tratt. Dati Personali*</label></a>
+                <a href=""><label class="form-check-label fs7" for="invalidCheck">Accettazione Tratt. Dati Personali *</label></a>
               </div>
-              <div>* campi obbligatori</div>
+              <div class="fs7">* campi obbligatori</div>
             </div>
 
             <div class="d-flex justify-content-end btn-invio">
@@ -48,8 +48,8 @@
         <!-- end-form ---------------------------------------------------------------------------------------------------- -->
 
         <div class="info-corus">
-          <div class="col-12 text-center"><strong>Corus s.a.s. - Servizi di traduzione ed interpretariato in Cinese, Giapponese e Coreano</strong></div>
-          <div class="col-12 text-center">Via Leutelmonte 32, 25040 ESINE (BS) - P.IVA:02251300980 | privacy cookies policy</div>
+          <div class="col-12 text-center fs-6 robotoB">Corus s.a.s. - Servizi di traduzione ed interpretariato in Cinese, Giapponese e Coreano</div>
+          <div class="col-12 text-center fs-6">Via Leutelmonte 32, 25040 ESINE (BS) - P.IVA:02251300980 | privacy cookies policy</div>
         </div>
         
       </div>
@@ -88,6 +88,19 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.fs7{
+font-size: 13px;
+}
+.form-check-input{
+  border-radius: 0;
+}
+.robotoB{
+   font-family: 'Roboto';
+   font-weight: 700;
+}
+.fs-6{
+  line-height: 21px;
+}
 .formH{
   height: 32px;
 }
@@ -108,24 +121,28 @@ a{
   }
 }
 .bg-gray1{
-  background-color: rgb(65, 65, 65);
+  background-color: #4c4c4c;
   color: white;
   padding-top: 30px;
   .bg-gray2{
-    background-color: rgb(32, 32, 32);
+    background-color: #313131;
     font-size: 30px;
     line-height: 35px;
     height: 145px;
-    width: 248px;
+    width: 260px;
     padding: 37px 27px;
     margin-top: -50px;
   }
 }
 .spaziatura-col-2{
-  padding-right: 20px;
+  padding:0 20px 0 16px;
 }
 .inputs{
   width: 100%;
+  border-radius: 0;
+}
+.inputs:focus {
+  
 }
 .spazioform{
   margin-top: 10px;
@@ -146,7 +163,7 @@ textarea{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #dc8122;
+  background-color: #ff9f19;
   border:none;
   img{
     margin-left: 25px;
