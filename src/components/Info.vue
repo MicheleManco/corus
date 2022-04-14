@@ -1,27 +1,27 @@
 <template>
   <div>
-    <div class="bg-light-gray1">
+    <div class="bg-light-gray1 fs-5">
       <div class="container">
         <div class="row">
           <div class="col-sm-6 d-none d-lg-flex d-flex justify-content-end">
               <img class="women-img" src="../assets/women.png" alt="">
           </div>
-          <div class="col-lg-5 col-12 d-flex flex-column justify-content-center">
-            <h3 class="clr-red"><strong>DOCENTI QUALIFICATI</strong></h3>
-            <h3 class="sottotitoletto clr-gray"><strong>per corsi di cinese e giapponese davvero efficaci</strong></h3>
-            <p class="clr-gray-dark fs-6">i nostri docenti sono tutti accuratamente selezionati e hanno maturato molti anni di esperienza nell'inseguimento della lingua e della cultura cinese/giapponese e presso scuole medie e superiori, aziende, centrii linguistici  e associazioni culturali.</p>
+          <div class="col-lg-5 col-12 d-flex flex-column justify-content-center container-text">
+            <h3 class="clr-red robotoB">DOCENTI QUALIFICATI</h3>
+            <h3 class="sottotitoletto clr-gray robotoB">per corsi di cinese e giapponese davvero efficaci</h3>
+            <p class="clr-gray-dark ">i nostri docenti sono tutti accuratamente selezionati e hanno maturato molti anni di esperienza nell'inseguimento della lingua e della cultura cinese/giapponese e presso scuole medie e superiori, aziende, centrii linguistici  e associazioni culturali.</p>
           </div>
         </div>
       </div>
     </div>
     
 
-    <div class="bg-light-gray2">
+    <div class="bg-light-gray2 fs-5">
       <div class="container">
         <div class="row">
           <div class="col-md-7 col-12 clr-gray-dark">
-            <p class="fs-6">Corus s.a.s. raggruppa un <span><strong>team di traduttori e interpreti professionisti specializzati nelle Lingue Orientali</strong></span>: Cinese,Giapponese e Coreano </p>
-            <p class="fs-6">Oltre ai corsi di lingua cinese e giapponese, Corus offre anche servizi di traduzione e interpretariato, asseverazione, legalizzazione e impaginazione grafica nelle principali Lingue Orientali</p>
+            <p>Corus s.a.s. raggruppa un <span class="robotoB">team di traduttori e interpreti professionisti specializzati nelle Lingue Orientali</span>: Cinese,Giapponese e Coreano </p>
+            <p>Oltre ai corsi di lingua cinese e giapponese, Corus offre anche servizi di traduzione e interpretariato, asseverazione, legalizzazione e impaginazione grafica nelle principali Lingue Orientali</p>
           </div>
           <div class="col-md-5 gy-3  d-flex flex-column justify-content-center align-items-center">
             <img class="logo" src="../assets/logo.png" alt="">
@@ -44,23 +44,34 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.robotoB{
+   font-family: 'Roboto';
+   font-weight: 700;
+}
+.fs-5{
+  line-height: 25px;
+}
 .clr-gray-dark{
   color: #3a3a3a;
 }
 .clr-gray{
   color: #4c4c4c;
 }
+.container-text{
+  margin: 45px 0;
+}
 .bg-light-gray1{
   background-color: #e5e5e5;
+  margin-top: 155px;
   img{
-    margin-top: -70px;
+    margin-top: -100px;
     margin-right: 50px;
   }
 }
 .bg-light-gray2{
   background-color: #f5f5f5;
   margin: 25px 0;
-  padding: 25px 0;
+  padding: 35px 0;
   img{
     width: 300px;
   }
@@ -73,5 +84,15 @@ export default {
    .logo{
      max-width: 80%;
    }
+}
+@media all and (max-width: 1200px){
+   .bg-light-gray1{
+  background-color: #e5e5e5;
+  margin-top: 155px;
+  img{
+    margin-top: -30px;
+    margin-right: 50px;
+  }
+}
 }
 </style>

@@ -6,7 +6,7 @@
 
         <div class="col-xl-4 col-sm-6 bg-lightgray clr-gray">
           <div>
-          <h4 class="fs-3"><strong>COORDINATE</strong></h4>
+          <h4 class="fs-3 coordinate"><strong>COORDINATE</strong></h4>
 
           <div class="d-flex">
             <div>
@@ -73,6 +73,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.coordinate{
+  margin-bottom: 20px;
+}
+.fs-5{
+  line-height: 25px;
+}
 .clr-gray-dark{
   color: #3a3a3a;
 }

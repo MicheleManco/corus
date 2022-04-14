@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container-fluid">
+    <div class="container-fluid ">
       <div class="row">
         <h1 class="col-12 text-center why-cinese clr-gray"><strong> PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI CINESE</span>?</strong> </h1>
 
@@ -16,7 +16,7 @@
 
         <div class="col-xl-4 col-sm-6 bg-lightgray clr-gray">
           <div>
-            <h4 class="fs-3"><strong>COORDINATE</strong></h4>
+            <h4 class="fs-3 coordinate"><strong>COORDINATE</strong></h4>
 
             <div class="d-flex">
               <div class="images">
@@ -65,9 +65,9 @@
     <!-- striscia rossa  -->
     <div class="bg-red">
       <div class="container">
-        <div class="row justify-content-sm-center">
-          <div class="col-12 col-md-5 text-center">
-            <div class="fs-4">L'allievo può scegliere tra <strong>2 livelli di apprendimento</strong> in base alle conoscenze della lingua già acquisite.</div>
+        <div class="row justify-content-center d-flex text-center">
+          <div class="col-12 col-md-6">
+            <div class="fs-4">L'allievo può scegliere tra <span class="robotoB">2 livelli di apprendimento</span> in base alle conoscenze della lingua già acquisite.</div>
           </div>
         </div>
       </div>
@@ -86,6 +86,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.robotoB{
+   font-family: 'Roboto';
+   font-weight: 700;
+}
+.coordinate{
+  margin-bottom: 20px;
+}
+.fs-5{
+  line-height: 25px;
+}
 .clr-gray-dark{
   color: #3a3a3a;
 }
@@ -98,7 +108,7 @@ export default {
   color: white;
   font-size: 22px;
   line-height: 23px;
-  padding: 20px;
+  padding: 22px;
   margin: 60px 0 10px 0;
 }
 .why-cinese{
