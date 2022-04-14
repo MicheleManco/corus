@@ -2,7 +2,7 @@
   <div>
     <div class="container-fluid">
       <div class="row justify-content-center mini-container">
-        <h1 class="col-12 text-center why-giapponese  clr-gray"><strong>PERCHE FREQUENTARE UN <span class="clr-red">CORSO DI GIAPPONESE</span>?</strong></h1>
+        <h1 class="col-12 text-center why-giapponese  clr-gray"><strong>PERCH&Eacute; FREQUENTARE UN <span class="clr-red">CORSO DI GIAPPONESE</span>?</strong></h1>
 
         <div class="col-xl-4 col-sm-6 bg-lightgray clr-gray">
           <div>
@@ -13,7 +13,7 @@
               <img class="images" src="../assets/orologio.png" alt="">
             </div>
             <div>
-              <h5 class="clr-red fs-4"><strong>Durata</strong></h5>
+              <h5 class="clr-red fs-4"><strong>DURATA</strong></h5>
               <p class="fs-5">Ottobre - maggio per un totale di 60 ore</p>
             </div>
           </div>
@@ -23,7 +23,7 @@
               <img class="images" src="../assets/posizione.png" alt="">
             </div>
             <div>
-              <h5 class="clr-red fs-4"><strong>Sede</strong></h5>
+              <h5 class="clr-red fs-4"><strong>SEDE</strong></h5>
               <p class="fs-5">Il corso si terrà presso la sede di Corus s.a.s. in Via Lautelmonte, 32 a Esine(Brescia)</p>
             </div>
           </div>
@@ -34,7 +34,7 @@
             </div>
             <div>
               <h5 class="clr-red fs-4"><strong>ORGANIZZAZIONE</strong></h5>
-              <p class="fs-5">Gli allievi verranno organizzati in gruppi di massimo 5 persone</p>
+              <p class="fs-5">gli allievi verranno organizzati in gruppi di massimo 5 persone</p>
             </div>
           </div>
 
@@ -50,7 +50,7 @@
         </div>
 
         <div class="col-xl-4 col-sm-6 paragrafi ">
-          <p class="clr-gray-dark fs-5" >L'occidente è da sempre interessato alla realtà nipponica, per le sue enormi potenzialità, ma anche per la sua affascinante variegata cultura: anime e manga, templi e castelli, geishe e samurai sono lo sfondo di una società ipertecnologica e alla moda. E oggi chi conosce il giapponese rappresenta un'importante risorsa per le aziende italiane che si affacciano su questo mercato. </p>
+          <p class="clr-gray-dark fs-5" >L'Occidente è da sempre interessato alla realtà nipponica, per le sue enormi potenzialità, ma anche per la sua affascinante e variegata cultura: anime e manga, templi e castelli, geishe e samurai sono lo sfondo di una società ipertecnologica e alla moda. E oggi chi conosce il giapponese rappresenta un'importante risorsa per le aziende italiane che si affacciano su questo mercato. </p>
           <h4 class="clr-gray fs-3"><strong><span class="clr-red">QUALE GIAPPONESE</span>  INSEGNAMO?</strong></h4>
           <p class="clr-gray-dark fs-5" >Il corso propone l'insegnamento della lingua <strong>giapponese moderna</strong>, con le sue forme di scrittura (katakana, hiragana, kenji).</p>
         </div>

@@ -59,8 +59,8 @@
           <label for="validationCustom01" class="form-label padding-blocco">Nome e Cognome *</label>
           <input type="text" class="no_border_radius form-control margin-blocco formH" id="validationCustom01" value="" required>
 
-          <div class="padding-blocco">telefono</div>
-          <input class="margin-blocco formH" type="tel">
+          <label class="form-label padding-blocco">Telefono</label>
+          <input class="no_border_radius form-control margin-blocco formH" type="tel">
 
           <label for="exampleInputEmail1" class="padding-blocco form-label">E-mail *</label>
           <input class="no_border_radius margin-blocco form-control formH" id="exampleInputEmail1" required type="email">
@@ -208,6 +208,7 @@ label{
 }
 textarea{
   resize: none;
+  height: 90px;
 }
 .formH{
   height: 32px;
@@ -219,7 +220,7 @@ textarea{
 .richiedi_info{
   font-size: 30px;
   line-height: 30px;
-  margin: 15px 0;
+  margin: 25px 0 15px 0;
 }
 
 .invia_richiesta{

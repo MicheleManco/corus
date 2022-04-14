@@ -10,7 +10,7 @@
               <div class="clr-red fs-3 robotoB">DOCENTI QUALIFICATI</div>
               <div class="fs-3 clr-gray robotoB">per corsi di cinese</div>
               <div class="fs-3 sottotitoletto clr-gray robotoB"> e giapponese davvero efficaci</div>
-            <p class="clr-gray-dark ">i nostri docenti sono tutti accuratamente selezionati e hanno maturato molti anni di esperienza nell'inseguimento della lingua e della cultura cinese/giapponese e presso scuole medie e superiori, aziende, centrii linguistici  e associazioni culturali.</p>
+            <p class="clr-gray-dark ">I nostri docenti sono tutti accuratamente selezionati e hanno maturato molti anni di esperienza nell'insegnamento della lingua e della cultura cinese/giapponese e presso scuole medie e superiori, aziende, centri linguistici  e associazioni culturali.</p>
           </div>
         </div>
       </div>
