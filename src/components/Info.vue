@@ -7,8 +7,9 @@
               <img class="women-img" src="../assets/women.png" alt="">
           </div>
           <div class="col-lg-5 col-12 d-flex flex-column justify-content-center container-text">
-            <h3 class="clr-red robotoB">DOCENTI QUALIFICATI</h3>
-            <h3 class="sottotitoletto clr-gray robotoB">per corsi di cinese e giapponese davvero efficaci</h3>
+              <div class="clr-red fs-3 robotoB">DOCENTI QUALIFICATI</div>
+              <div class="fs-3 clr-gray robotoB">per corsi di cinese</div>
+              <div class="fs-3 sottotitoletto clr-gray robotoB"> e giapponese davvero efficaci</div>
             <p class="clr-gray-dark ">i nostri docenti sono tutti accuratamente selezionati e hanno maturato molti anni di esperienza nell'inseguimento della lingua e della cultura cinese/giapponese e presso scuole medie e superiori, aziende, centrii linguistici  e associazioni culturali.</p>
           </div>
         </div>
@@ -20,8 +21,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7 col-12 clr-gray-dark">
-            <p>Corus s.a.s. raggruppa un <span class="robotoB">team di traduttori e interpreti professionisti specializzati nelle Lingue Orientali</span>: Cinese,Giapponese e Coreano </p>
-            <p>Oltre ai corsi di lingua cinese e giapponese, Corus offre anche servizi di traduzione e interpretariato, asseverazione, legalizzazione e impaginazione grafica nelle principali Lingue Orientali</p>
+            <p>Corus s.a.s. raggruppa un <span class="robotoB">team di traduttori e interpreti professionisti specializzati nelle Lingue Orientali</span>: Cinese, Giapponese e Coreano </p>
+            <div>Oltre ai corsi di lingua cinese e giapponese, Corus offre anche servizi di traduzione e interpretariato, asseverazione, legalizzazione e impaginazione grafica nelle principali Lingue Orientali</div>
           </div>
           <div class="col-md-5 gy-3  d-flex flex-column justify-content-center align-items-center">
             <img class="logo" src="../assets/logo.png" alt="">
@@ -44,6 +45,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.fs-3{
+  line-height: 30px;
+}
 .robotoB{
    font-family: 'Roboto';
    font-weight: 700;
@@ -64,8 +68,8 @@ export default {
   background-color: #e5e5e5;
   margin-top: 155px;
   img{
-    margin-top: -100px;
-    margin-right: 50px;
+    margin-top: -90px;
+    margin-right: 30px;
   }
 }
 .bg-light-gray2{
@@ -77,7 +81,7 @@ export default {
   }
 }
 .sottotitoletto{
-  margin: -10px 0 30px 0;
+  margin-bottom: 30px;
 }
 
 @media all and (max-width: 390px){

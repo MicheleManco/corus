@@ -10,7 +10,7 @@
       </div>
       
     <!-- card di informazione corsi -->
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <div class="row container-card">
 
             <div v-for="corso,i in corsi" :key="i" class="col-md-6 col-12 position-relative margine-card">
@@ -21,7 +21,7 @@
                         <p>{{corso.text}}</p>
                     </div>
                 </div>
-                <div class="position-absolute bottom-0 start-20 position-relative commento">
+                <div class="position-absolute bottom-0 start-20 position-relative commento robotoB">
                     {{corso.comment}}
                 </div>
             </div>
@@ -73,6 +73,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.container-card{
+    margin-bottom: -20px;
+}
 .fs-3{
     line-height: 30px;
 }
@@ -80,8 +83,9 @@ export default {
    font-family: 'Roboto';
    font-weight: 700;
 }
+
 .livelli{
-    margin: 30px 0 40px 0;
+    margin: 60px 0 40px 0;
     .sottotitolo-levels{
         font-size: 25px;
         line-height: 25px;
@@ -106,6 +110,7 @@ export default {
     background-color: #dcdcdc;
     width: 100%;
     height: 23%;
+    color: #4f4f4f;
 }
 .margine-card{
     margin-bottom: 50px;
@@ -121,6 +126,7 @@ export default {
 .titoletto{
     line-height: 50px;
     vertical-align: center;
+    margin-bottom: 25px;
 }
 .al-termine{
     font-size: 25px;
@@ -132,9 +138,9 @@ export default {
     margin-right: 15px;
 }
 .attestato{
-    margin: 30px 0px;
+    margin-bottom: 30px;
     img{
-        margin-right: 50px;
+        margin-right: 35px;
     }
     
 }
