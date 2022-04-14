@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="fs-5">
       <div class="container">
           <div class="row">
             <div class="col-12 livelli">
-                <h4 class="clr-red"> <strong>2 LIVELLI DI APPRENDIMENTO</strong></h4>
-                <div class="sottotitolo-levels" ><strong>le competenze acquisibili con i corsi di cinese e giapponese in aula</strong></div>
+                <h4 class="clr-red robotoB fs-2"> 2 LIVELLI DI APPRENDIMENTO</h4>
+                <div class="sottotitolo-levels robotoB fs-3" >le competenze acquisibili con i corsi di cinese e giapponese in aula</div>
             </div>
         </div>
       </div>
@@ -17,7 +17,7 @@
                 <div class="d-flex content">
                     <img class="pallino-corso d-none d-sm-block" :src="require('../' + corso.image)" alt="">
                     <div class="info-card">
-                        <h5 class="clr-red titoletto"><strong>{{corso.title}}</strong></h5>
+                        <h5 class="clr-red titoletto robotoB fs-4">{{corso.title}}</h5>
                         <p>{{corso.text}}</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
             </div>
             <div class="col-sm-8 col-12 d-flex flex-column justify-content-center">
                 <div class="al-termine">Al termine di ogni corso, tutti i partecipanti riceveranno un</div>
-                <h4 class="clr-red"><strong>ATTESTATO DI PARTECIPAZIONE</strong></h4>
+                <h4 class="clr-red robotoB">ATTESTATO DI PARTECIPAZIONE</h4>
             </div>
         </div>
     </div>
@@ -49,8 +49,8 @@
                     <img src="../assets/arrow-pallino.png" alt="">
                 </div>
                 <div class="col-sm-8 col-12 d-flex flex-column justify-content-center">
-                    <div class="contattaci"><strong>Contattaci per ricevere tutti i dettagli dei</strong></div> 
-                    <h4 class="clr-red"><strong>CORSI DI LINGUA CINESE E GIAPPONESE IN AULA</strong></h4>
+                    <div class="contattaci robotoB">Contattaci per ricevere tutti i dettagli dei</div> 
+                    <h4 class="clr-red robotoB">CORSI DI LINGUA CINESE E GIAPPONESE IN AULA</h4>
                 </div>
                 <div class="d-sm-none ">
                     <img src="../assets/arrow-pallino.png" alt="">
@@ -73,6 +73,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.robotoB{
+   font-family: 'Roboto';
+   font-weight: 700;
+}
 .livelli{
     margin: 30px 0 40px 0;
     .sottotitolo-levels{

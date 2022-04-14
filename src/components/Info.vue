@@ -90,7 +90,7 @@ export default {
   background-color: #e5e5e5;
   margin-top: 155px;
   img{
-    margin-top: -30px;
+    margin-top: 10px;
     margin-right: 50px;
   }
 }
