@@ -145,12 +145,9 @@ export default {
         max-height: 50px;
     }
 }
-@media all and (max-width: 390px){
-   .info-card{
-    padding-bottom: 180px;
-} 
-.margine-card{
-    margin-bottom: 20px;
+@media all and (max-width: 1530px){
+    .info-card{
+    padding-bottom: 50%;
 }
 }
 @media all and (max-width: 1285px){
@@ -168,18 +165,28 @@ export default {
         padding:10px 50px 10px  36%;  
         right: 0;
     }
-    .commento{
-    background-color: #dcdcdc;
-    width: 100%;
-    height: 28%;
-}
+    .margine-card:nth-child(1) .commento,.margine-card:nth-child(2) .commento{
+        height: 20%;
+    }
+    .margine-card:nth-child(3) .commento,.margine-card:nth-child(4) .commento{
+        height: 27%;
+    }
+    .info-card{
+        padding-bottom: 60%;
+    }
 }
 @media all and (max-width: 1080px){
     .info-card{
         padding-bottom: 50%;
     }
+    .info-card{
+        padding-bottom: 70%;
+    }
+    .margine-card:nth-child(1) .commento,.margine-card:nth-child(2) .commento{
+        height: 20%;
+    }
 }
-@media all and (max-width: 905px){
+@media all and (max-width: 915px){
     .margine-card:nth-child(2) .content,.margine-card:nth-child(4) .content{
         padding-right: 1%;
     }
@@ -193,21 +200,25 @@ export default {
         padding:10px 50px 10px  16%;  
         right: 0;
     }
-    .commento{
-        background-color: #dcdcdc;
-        width: 100%;
+    .margine-card:nth-child(3) .commento,.margine-card:nth-child(4) .commento{
+        padding:10px 50px 10px  16%;  
+        right: 0;
         height: 23%;
     }
     .info-card{
-        padding-bottom: 45%;
+        padding-bottom: 66%;
     }
 }
 @media all and (max-width: 767px){
     .info-card{
-        padding-bottom: 20%;
+        padding-bottom: 30%;
     }
-    .commento{
-        height: 30%;
+    .margine-card:nth-child(1) .commento,.margine-card:nth-child(2) .commento,.margine-card:nth-child(4) .commento{
+        padding:10px;
+        height: 25%;
+    }
+    .margine-card:nth-child(3) .commento{
+        height: 35%;
     }
     .margine-card:nth-child(2) .content,.margine-card:nth-child(4) .content{
         padding-right: 1%;
@@ -221,12 +232,18 @@ export default {
     }
     .margine-card:nth-child(1) .commento,.margine-card:nth-child(3) .commento{
         padding:10px 10% 10px  14%;  
-        right: 0;
     }
 }
 @media all and (max-width:630px){
     .info-card{
         padding-bottom: 30%;
+    }
+    .margine-card:nth-child(1) .commento,.margine-card:nth-child(2) .commento,.margine-card:nth-child(4) .commento{
+        padding-left:80px;
+        height: 25%;
+    }
+    .margine-card:nth-child(3) .commento{
+        height: 35%;
     }
 }
 @media all and (max-width:575px){
@@ -238,13 +255,16 @@ export default {
     }
     .margine-card:nth-child(2) .commento,.margine-card:nth-child(4) .commento{
         padding:10px;
+        height: 20%;
     }
-    .margine-card:nth-child(1) .commento,.margine-card:nth-child(3) .commento{
+    .margine-card:nth-child(1) .commento{
         padding:10px;  
         right: 0;
+        height: 25%;
     }
-    .commento{
+    .margine-card:nth-child(3) .commento{
         height: 30%;
+        padding: 10px;
     }
     .info-card{
         padding-bottom: 50%;
@@ -254,15 +274,16 @@ export default {
     .margine-card:nth-child(4) .commento,.margine-card:nth-child(1) .commento,.margine-card:nth-child(2) .commento{
         height: 20%;
     }
-}
-@media all and (max-width:391px){
-   .info-card{
-        padding-bottom: 60%;
-    } 
-}
-@media all and (max-width:295px){
+    .margine-card:nth-child(3) .commento{
+        height: 30%;
+    }
     .info-card{
         padding-bottom: 80%;
+    } 
+}
+@media all and (max-width:298px){
+    .info-card{
+        padding-bottom: 100%;
     }
 }
 </style>
