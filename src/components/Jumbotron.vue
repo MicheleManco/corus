@@ -273,14 +273,25 @@ a{
 }
 .sottotitolo-bianco{
   color: white;
-  font-size: 20px;
-  line-height: 22px;
+  line-height: 25px;
 }
 .white-text{
   color: white;
   font-size: 18px;
 }
 @media all and (max-width: 1200px){
+  .bg-gray{
+  margin-top: 40px;
+  background-color: #313131;
+  height: 105px;
+  padding: 0px 30px;
+}
+.richiedi_info{
+  margin: 15px 0 5px 0;
+}
+.invia_richiesta{
+  height: 105px;
+}
   .main-title{
     margin-left: 0px;
   }

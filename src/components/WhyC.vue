@@ -2,7 +2,7 @@
   <div>
     <div class="container-fluid ">
       <div class="row">
-        <h1 class="col-12 text-center why-cinese clr-gray"><strong> PERCH&Eacute; FREQUENTARE UN <span class="clr-red">CORSO DI CINESE</span>?</strong> </h1>
+        <h1 class="col-12 text-center why-cinese clr-gray robotoB"> PERCH&Eacute; FREQUENTARE UN <span class="clr-red">CORSO DI CINESE</span>?</h1>
 
         <div class="col-md-4 d-none d-xl-block position-relative">
           <img class="image" src="../assets/prima-immagine.jpg" alt="">
@@ -10,20 +10,20 @@
 
         <div class="col-xl-4 col-sm-6 paragrafi">
           <p class="clr-gray-dark fs-5"> I sempre più frequenti scambi commerciali e culturali con la Cina hanno fatto sì che il Cinese sia divenuto in pochi anni una delle lingue più studiate a livello mondiale nonché un importante strumento di lavoro e di scambio culturale.</p>
-          <h4 class="clr-gray fs-3"><strong><span class="clr-red ">QUALE CINESE</span>  INSEGNAMO?</strong></h4>
+          <h4 class="clr-gray fs-3 robotoB"><span class="clr-red ">QUALE CINESE</span>  INSEGNAMO?</h4>
           <p class="clr-gray-dark fs-5" >Il corso propone l'insegnamento del Putonghua (普通話), altrimenti detto <strong>Mandarino</strong>, ossia la <strong> lingua ufficiale adottata dalla Repubblica Popolare Cinese</strong>, del relativo sistema di trascrizione fonetica pīnyīn e delle regole di scrittura caratteri.</p>
         </div>
 
         <div class="col-xl-4 col-sm-6 bg-lightgray clr-gray">
           <div>
-            <h4 class="fs-3 coordinate"><strong>COORDINATE</strong></h4>
+            <h4 class="fs-3 coordinate robotoB">COORDINATE</h4>
 
             <div class="d-flex">
               <div class="images">
                 <img src="../assets/orologio.png" alt="">
               </div>
               <div>
-                <h5 class="clr-red fs-4"><strong>DURATA</strong></h5>
+                <h5 class="clr-red fs-4 robotoB">DURATA</h5>
                 <p class="fs-5">Ottobre - maggio per un totale di 60 ore</p>
               </div>
             </div>
@@ -33,7 +33,7 @@
                 <img src="../assets/posizione.png" alt="">
               </div>
               <div>
-                <h5 class="clr-red fs-4"><strong>SEDE</strong></h5>
+                <h5 class="clr-red fs-4 robotoB">SEDE</h5>
                 <p class="fs-5">Il corso si terrà presso la sede di Corus s.a.s. in Via Lautelmonte, 32 a Esine (Brescia)</p>
               </div>
             </div>
@@ -43,7 +43,7 @@
                 <img src="../assets/people.png" alt="">
               </div>
               <div>
-                <h5 class="clr-red fs-4"><strong>ORGANIZZAZIONE</strong></h5>
+                <h5 class="clr-red fs-4 robotoB">ORGANIZZAZIONE</h5>
                 <p class="fs-5">Gli allievi verranno organizzati in gruppi di massimo 5 persone</p>
               </div>
             </div>
@@ -53,7 +53,7 @@
                 <img src="../assets/attestato-icon.png" alt="">
               </div>
               <div>
-                <h5 class="clr-red fs-4"><strong>ATTESTATO DI PARTECIPAZIONE</strong></h5>
+                <h5 class="clr-red fs-4 robotoB">ATTESTATO DI PARTECIPAZIONE</h5>
               </div>
             </div>
           </div>
